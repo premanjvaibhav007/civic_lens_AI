@@ -65,9 +65,15 @@ storage/thumbnails/*
 *.sqlite3
 backups/
 
+# Java / Spring Boot
+target/
+backend-springboot/target/
+*.class
+
 # IDE
 .idea/
 .vscode/
 *.swp
 *.swo
 .DS_Store
+*.log
