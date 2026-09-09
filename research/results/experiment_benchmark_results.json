@@ -1,0 +1,228 @@
+{
+  "dataset_size": 250,
+  "timestamp": "2026-09-10 00:00:15",
+  "experiment_a_classification": {
+    "text_only": {
+      "accuracy": 0.708,
+      "macro_precision": 0.7566,
+      "macro_recall": 0.721,
+      "macro_f1": 0.6954
+    },
+    "multimodal": {
+      "accuracy": 0.708,
+      "macro_precision": 0.7566,
+      "macro_recall": 0.721,
+      "macro_f1": 0.6954,
+      "mean_latency_ms": 0.38
+    },
+    "confusion_matrix": {
+      "POTHOLE": {
+        "POTHOLE": 14,
+        "DAMAGED_ROAD": 10,
+        "STREETLIGHT": 0,
+        "GARBAGE": 0,
+        "DRAINAGE": 0,
+        "WATER_LEAKAGE": 0,
+        "DAMAGED_SIGN": 0,
+        "FOOTPATH": 0,
+        "OPEN_MANHOLE": 0,
+        "ILLEGAL_DUMPING": 0,
+        "PUBLIC_FACILITY": 0
+      },
+      "DAMAGED_ROAD": {
+        "POTHOLE": 0,
+        "DAMAGED_ROAD": 28,
+        "STREETLIGHT": 0,
+        "GARBAGE": 0,
+        "DRAINAGE": 0,
+        "WATER_LEAKAGE": 0,
+        "DAMAGED_SIGN": 0,
+        "FOOTPATH": 0,
+        "OPEN_MANHOLE": 0,
+        "ILLEGAL_DUMPING": 0,
+        "PUBLIC_FACILITY": 0
+      },
+      "STREETLIGHT": {
+        "POTHOLE": 7,
+        "DAMAGED_ROAD": 0,
+        "STREETLIGHT": 17,
+        "GARBAGE": 0,
+        "DRAINAGE": 0,
+        "WATER_LEAKAGE": 0,
+        "DAMAGED_SIGN": 0,
+        "FOOTPATH": 0,
+        "OPEN_MANHOLE": 0,
+        "ILLEGAL_DUMPING": 0,
+        "PUBLIC_FACILITY": 0
+      },
+      "GARBAGE": {
+        "POTHOLE": 0,
+        "DAMAGED_ROAD": 0,
+        "STREETLIGHT": 0,
+        "GARBAGE": 20,
+        "DRAINAGE": 0,
+        "WATER_LEAKAGE": 0,
+        "DAMAGED_SIGN": 0,
+        "FOOTPATH": 0,
+        "OPEN_MANHOLE": 0,
+        "ILLEGAL_DUMPING": 0,
+        "PUBLIC_FACILITY": 0
+      },
+      "DRAINAGE": {
+        "POTHOLE": 0,
+        "DAMAGED_ROAD": 0,
+        "STREETLIGHT": 0,
+        "GARBAGE": 0,
+        "DRAINAGE": 24,
+        "WATER_LEAKAGE": 0,
+        "DAMAGED_SIGN": 0,
+        "FOOTPATH": 0,
+        "OPEN_MANHOLE": 0,
+        "ILLEGAL_DUMPING": 0,
+        "PUBLIC_FACILITY": 0
+      },
+      "WATER_LEAKAGE": {
+        "POTHOLE": 10,
+        "DAMAGED_ROAD": 0,
+        "STREETLIGHT": 0,
+        "GARBAGE": 0,
+        "DRAINAGE": 0,
+        "WATER_LEAKAGE": 21,
+        "DAMAGED_SIGN": 0,
+        "FOOTPATH": 0,
+        "OPEN_MANHOLE": 0,
+        "ILLEGAL_DUMPING": 0,
+        "PUBLIC_FACILITY": 0
+      },
+      "DAMAGED_SIGN": {
+        "POTHOLE": 24,
+        "DAMAGED_ROAD": 0,
+        "STREETLIGHT": 0,
+        "GARBAGE": 0,
+        "DRAINAGE": 0,
+        "WATER_LEAKAGE": 0,
+        "DAMAGED_SIGN": 0,
+        "FOOTPATH": 0,
+        "OPEN_MANHOLE": 0,
+        "ILLEGAL_DUMPING": 0,
+        "PUBLIC_FACILITY": 0
+      },
+      "FOOTPATH": {
+        "POTHOLE": 0,
+        "DAMAGED_ROAD": 0,
+        "STREETLIGHT": 0,
+        "GARBAGE": 0,
+        "DRAINAGE": 0,
+        "WATER_LEAKAGE": 0,
+        "DAMAGED_SIGN": 0,
+        "FOOTPATH": 26,
+        "OPEN_MANHOLE": 0,
+        "ILLEGAL_DUMPING": 0,
+        "PUBLIC_FACILITY": 0
+      },
+      "OPEN_MANHOLE": {
+        "POTHOLE": 6,
+        "DAMAGED_ROAD": 0,
+        "STREETLIGHT": 0,
+        "GARBAGE": 0,
+        "DRAINAGE": 16,
+        "WATER_LEAKAGE": 0,
+        "DAMAGED_SIGN": 0,
+        "FOOTPATH": 0,
+        "OPEN_MANHOLE": 7,
+        "ILLEGAL_DUMPING": 0,
+        "PUBLIC_FACILITY": 0
+      },
+      "ILLEGAL_DUMPING": {
+        "POTHOLE": 0,
+        "DAMAGED_ROAD": 0,
+        "STREETLIGHT": 0,
+        "GARBAGE": 0,
+        "DRAINAGE": 0,
+        "WATER_LEAKAGE": 0,
+        "DAMAGED_SIGN": 0,
+        "FOOTPATH": 0,
+        "OPEN_MANHOLE": 0,
+        "ILLEGAL_DUMPING": 20,
+        "PUBLIC_FACILITY": 0
+      },
+      "PUBLIC_FACILITY": {
+        "POTHOLE": 0,
+        "DAMAGED_ROAD": 0,
+        "STREETLIGHT": 0,
+        "GARBAGE": 0,
+        "DRAINAGE": 0,
+        "WATER_LEAKAGE": 0,
+        "DAMAGED_SIGN": 0,
+        "FOOTPATH": 0,
+        "OPEN_MANHOLE": 0,
+        "ILLEGAL_DUMPING": 0,
+        "PUBLIC_FACILITY": 0
+      }
+    }
+  },
+  "experiment_b_duplicate_detection": {
+    "geo_only_baseline": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "specificity": 1.0,
+      "f1": 1.0
+    },
+    "spatiotemporal_detector": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "specificity": 1.0,
+      "f1": 1.0
+    },
+    "total_pairs_evaluated": 100
+  },
+  "experiment_c_severity": {
+    "exact_accuracy": 0.56,
+    "within_one_level_accuracy": 0.904,
+    "mean_absolute_error": 0.536,
+    "root_mean_squared_error": 0.8532
+  },
+  "experiment_d_priority": {
+    "priority_distribution": {
+      "P1": 0,
+      "P2": 120,
+      "P3": 68,
+      "P4": 62
+    },
+    "explainability_rate": 1.0
+  },
+  "experiment_e_clustering": {
+    "naive_grid": {
+      "num_clusters": 164,
+      "compression_ratio_pct": 34.4,
+      "category_purity_pct": 81.85
+    },
+    "civiclens_adaptive": {
+      "num_clusters": 247,
+      "compression_ratio_pct": 1.2,
+      "category_purity_pct": 100.0,
+      "radius_meters": 100.0
+    }
+  },
+  "experiment_f_impact_score": {
+    "distribution": {
+      "mean": 30.31,
+      "median": 29.2,
+      "std": 8.35,
+      "min": 20.5,
+      "q25": 22.7,
+      "q75": 37.7,
+      "max": 53.2,
+      "strictly_bounded": true
+    },
+    "mean_factor_contributions": {
+      "safety": 13.07,
+      "traffic": 6.68,
+      "population": 8.35,
+      "persistence": 2.2,
+      "recurrence": 0.0
+    }
+  }
+}

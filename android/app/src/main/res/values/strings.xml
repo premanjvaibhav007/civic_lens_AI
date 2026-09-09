@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">CivicLens AI</string>
+    <string name="tagline">AI-Powered Civic Issue Resolution</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_report">Report Issue</string>
+    <string name="nav_my_complaints">My Reports</string>
+    <string name="nav_map">Nearby Map</string>
+    <string name="nav_notifications">Alerts</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">Spot &amp; Report</string>
+    <string name="onboarding_desc_1">Snap a photo of potholes, garbage, or broken public infrastructure in seconds.</string>
+    <string name="onboarding_title_2">AI-Powered Triage</string>
+    <string name="onboarding_desc_2">Our neural multimodal engine identifies the issue, estimates severity, and routes to the right municipal team.</string>
+    <string name="onboarding_title_3">Track &amp; Verify</string>
+    <string name="onboarding_desc_3">Follow real-time repair progress, inspect photo evidence, and verify resolution.</string>
+    <string name="btn_get_started">Get Started</string>
+    <string name="btn_login">Sign In</string>
+    <string name="btn_register">Create Account</string>
+
+    <!-- Report Flow -->
+    <string name="step_photo">Step 1: Take Photo</string>
+    <string name="step_location">Step 2: Verify Location</string>
+    <string name="step_details">Step 3: Issue Details</string>
+    <string name="step_review">Step 4: AI Preview &amp; Submit</string>
+
+    <string name="camera_capture">Take Photo</string>
+    <string name="gallery_pick">Choose from Gallery</string>
+    <string name="location_pin_hint">Drag marker to exact location on map</string>
+    <string name="title_hint">Brief title (e.g. Deep pothole near signal)</string>
+    <string name="desc_hint">Describe the problem and any immediate safety hazards...</string>
+    <string name="btn_submit_complaint">Submit Complaint</string>
+    <string name="submitting">Submitting &amp; Analyzing...</string>
+
+    <!-- AI Preview Screen -->
+    <string name="ai_analysis_title">AI Triage Preview</string>
+    <string name="ai_detected_issue">Detected Issue</string>
+    <string name="ai_confidence">Confidence</string>
+    <string name="ai_severity">Severity Rating</string>
+    <string name="ai_priority">Calculated Priority</string>
+    <string name="ai_department">Suggested Department</string>
+    <string name="ai_duplicate_warning">Potential duplicate reports nearby:</string>
+
+    <!-- Verification -->
+    <string name="verification_prompt">Has this issue actually been resolved?</string>
+    <string name="btn_resolved_yes">YES — Issue Resolved</string>
+    <string name="btn_resolved_no">NO — Still Exists</string>
+    <string name="rating_prompt">Rate resolution quality (1-5 stars)</string>
+    <string name="feedback_hint">Optional feedback or reopen remarks...</string>
+
+    <!-- Offline & Status -->
+    <string name="offline_draft_saved">No internet connection. Saved as local draft and will sync automatically when online.</string>
+    <string name="sync_complete">Sync completed successfully.</string>
+</resources>

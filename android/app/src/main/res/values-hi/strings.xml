@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">सिविक लेंस एआई</string>
+    <string name="tagline">एआई-संचालित नागरिक बुनियादी ढांचा समाधान</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">होम</string>
+    <string name="nav_report">शिकायत दर्ज करें</string>
+    <string name="nav_my_complaints">मेरी शिकायतें</string>
+    <string name="nav_map">नजदीकी मानचित्र</string>
+    <string name="nav_notifications">सूचनाएं</string>
+    <string name="nav_profile">प्रोफाइल</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">फोटो खींचे और रिपोर्ट करें</string>
+    <string name="onboarding_desc_1">गड्ढों, कचरे या टूटी सार्वजनिक संपत्तियों की तस्वीर कुछ ही सेकंडों में भेजें।</string>
+    <string name="onboarding_title_2">एआई द्वारा वर्गीकरण</string>
+    <string name="onboarding_desc_2">हमारा मल्टीमॉडल एआई इंजन समस्या की गंभीरता का आकलन कर संबंधित विभाग को भेजता है।</string>
+    <string name="onboarding_title_3">ट्रैक करें और पुष्टि करें</string>
+    <string name="onboarding_desc_3">मरम्मत की स्थिति देखें, फोटो प्रमाण जांचें और समाधान की पुष्टि करें।</string>
+    <string name="btn_get_started">शुरू करें</string>
+    <string name="btn_login">लॉग इन करें</string>
+    <string name="btn_register">नया खाता बनाएं</string>
+
+    <!-- Report Flow -->
+    <string name="step_photo">चरण 1: फोटो लें</string>
+    <string name="step_location">चरण 2: स्थान सत्यापित करें</string>
+    <string name="step_details">चरण 3: विवरण दर्ज करें</string>
+    <string name="step_review">चरण 4: एआई पूर्वावलोकन व सबमिट</string>
+
+    <string name="camera_capture">फोटो खींचे</string>
+    <string name="gallery_pick">गैलरी से चुनें</string>
+    <string name="location_pin_hint">मानचित्र पर सही स्थान चिह्नित करें</string>
+    <string name="title_hint">संक्षिप्त शीर्षक (उदा. सिग्नल के पास गहरा गड्ढा)</string>
+    <string name="desc_hint">समस्या और सुरक्षा जोखिम का विवरण दें...</string>
+    <string name="btn_submit_complaint">शिकायत दर्ज करें</string>
+    <string name="submitting">सबमिट और एआई विश्लेषण जारी...</string>
+
+    <!-- AI Preview Screen -->
+    <string name="ai_analysis_title">एआई विश्लेषण पूर्वावलोकन</string>
+    <string name="ai_detected_issue">पहचानी गई समस्या</string>
+    <string name="ai_confidence">सटीकता विश्वास</string>
+    <string name="ai_severity">गंभीरता स्तर</string>
+    <string name="ai_priority">प्राथमिकता</string>
+    <string name="ai_department">सुझाया गया विभाग</string>
+    <string name="ai_duplicate_warning">आस-पास संभावित मिलती-जुलती शिकायतें:</string>
+
+    <!-- Verification -->
+    <string name="verification_prompt">क्या यह समस्या वास्तव में हल हो गई है?</string>
+    <string name="btn_resolved_yes">हाँ — समस्या हल हो गई</string>
+    <string name="btn_resolved_no">नहीं — समस्या अभी भी है</string>
+    <string name="rating_prompt">समाधान गुणवत्ता को रेट करें (1-5 स्टार)</string>
+    <string name="feedback_hint">अपनी राय या दोबारा खोलने का कारण लिखें...</string>
+
+    <!-- Offline & Status -->
+    <string name="offline_draft_saved">इंटरनेट उपलब्ध नहीं है। ड्राफ्ट सुरक्षित कर लिया गया है, ऑनलाइन आते ही स्वतः सबमिट होगा।</string>
+    <string name="sync_complete">सिंक सफलतापूर्वक पूर्ण हुआ।</string>
+</resources>

@@ -1,0 +1,5002 @@
+[
+  {
+    "sample_id": "BENCH-0001",
+    "description": "Reported damaged road incident on local street",
+    "text": "Reported damaged road incident on local street",
+    "ground_truth_category": "DAMAGED_ROAD",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.619,
+    "lng": 77.184399,
+    "latitude": 28.619,
+    "longitude": 77.184399,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1236,
+      "texture_variance": 0.0289,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0002",
+    "description": "Reported drainage incident on local street",
+    "text": "Reported drainage incident on local street",
+    "ground_truth_category": "DRAINAGE",
+    "ground_truth_department": "Stormwater & Drainage Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.659842,
+    "lng": 77.238894,
+    "latitude": 28.659842,
+    "longitude": 77.238894,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0486,
+      "texture_variance": 0.0221,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0003",
+    "description": "Reported illegal dumping incident on local street",
+    "text": "Reported illegal dumping incident on local street",
+    "ground_truth_category": "ILLEGAL_DUMPING",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.653128,
+    "lng": 77.251224,
+    "latitude": 28.653128,
+    "longitude": 77.251224,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.154,
+      "texture_variance": 0.0289,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0004",
+    "description": "Reported damaged road incident on local street",
+    "text": "Reported damaged road incident on local street",
+    "ground_truth_category": "DAMAGED_ROAD",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.652024,
+    "lng": 77.243351,
+    "latitude": 28.652024,
+    "longitude": 77.243351,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1238,
+      "texture_variance": 0.0582,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0005",
+    "description": "Uncollected municipal trash heap attracting stray animals",
+    "text": "Uncollected municipal trash heap attracting stray animals",
+    "ground_truth_category": "GARBAGE",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.606781,
+    "lng": 77.23523,
+    "latitude": 28.606781,
+    "longitude": 77.23523,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1202,
+      "texture_variance": 0.0702,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0006",
+    "description": "Commercial market waste dumped outside entrance",
+    "text": "Commercial market waste dumped outside entrance",
+    "ground_truth_category": "GARBAGE",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.622411,
+    "lng": 77.186623,
+    "latitude": 28.622411,
+    "longitude": 77.186623,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1797,
+      "texture_variance": 0.0799,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0007",
+    "description": "Pothole causing severe vehicle damage and traffic bottleneck",
+    "text": "Pothole causing severe vehicle damage and traffic bottleneck",
+    "ground_truth_category": "POTHOLE",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.649875,
+    "lng": 77.233757,
+    "latitude": 28.649875,
+    "longitude": 77.233757,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.15,
+      "texture_variance": 0.0621,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0008",
+    "description": "Reported footpath incident on local street",
+    "text": "Reported footpath incident on local street",
+    "ground_truth_category": "FOOTPATH",
+    "ground_truth_department": "Civil Infrastructure & Footpath Division",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.631205,
+    "lng": 77.229625,
+    "latitude": 28.631205,
+    "longitude": 77.229625,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0871,
+      "texture_variance": 0.1129,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0009",
+    "description": "Deep asphalt hole right after the turn",
+    "text": "Deep asphalt hole right after the turn",
+    "ground_truth_category": "POTHOLE",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.66137,
+    "lng": 77.190434,
+    "latitude": 28.66137,
+    "longitude": 77.190434,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0884,
+      "texture_variance": 0.0205,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0010",
+    "description": "Reported footpath incident on local street",
+    "text": "Reported footpath incident on local street",
+    "ground_truth_category": "FOOTPATH",
+    "ground_truth_department": "Civil Infrastructure & Footpath Division",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.602887,
+    "lng": 77.247803,
+    "latitude": 28.602887,
+    "longitude": 77.247803,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0687,
+      "texture_variance": 0.0831,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0011",
+    "description": "Drinking water main pipeline burst flooding street",
+    "text": "Drinking water main pipeline burst flooding street",
+    "ground_truth_category": "WATER_LEAKAGE",
+    "ground_truth_department": "Water Supply & Sewerage Board",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.595095,
+    "lng": 77.229662,
+    "latitude": 28.595095,
+    "longitude": 77.229662,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.132,
+      "texture_variance": 0.0233,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0012",
+    "description": "Reported drainage incident on local street",
+    "text": "Reported drainage incident on local street",
+    "ground_truth_category": "DRAINAGE",
+    "ground_truth_department": "Stormwater & Drainage Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.610379,
+    "lng": 77.211634,
+    "latitude": 28.610379,
+    "longitude": 77.211634,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0401,
+      "texture_variance": 0.1058,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0013",
+    "description": "Reported illegal dumping incident on local street",
+    "text": "Reported illegal dumping incident on local street",
+    "ground_truth_category": "ILLEGAL_DUMPING",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.660171,
+    "lng": 77.200122,
+    "latitude": 28.660171,
+    "longitude": 77.200122,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.179,
+      "texture_variance": 0.0763,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0014",
+    "description": "Damaged street lamp fixture after storm",
+    "text": "Damaged street lamp fixture after storm",
+    "ground_truth_category": "STREETLIGHT",
+    "ground_truth_department": "Electrical & Public Lighting Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.66272,
+    "lng": 77.186712,
+    "latitude": 28.66272,
+    "longitude": 77.186712,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.14,
+      "texture_variance": 0.0699,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0015",
+    "description": "Reported footpath incident on local street",
+    "text": "Reported footpath incident on local street",
+    "ground_truth_category": "FOOTPATH",
+    "ground_truth_department": "Civil Infrastructure & Footpath Division",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.668018,
+    "lng": 77.238965,
+    "latitude": 28.668018,
+    "longitude": 77.238965,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1295,
+      "texture_variance": 0.0917,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0016",
+    "description": "Reported damaged road incident on local street",
+    "text": "Reported damaged road incident on local street",
+    "ground_truth_category": "DAMAGED_ROAD",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.638479,
+    "lng": 77.255034,
+    "latitude": 28.638479,
+    "longitude": 77.255034,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0905,
+      "texture_variance": 0.0556,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0017",
+    "description": "Broken drain lid with open falling hazard",
+    "text": "Broken drain lid with open falling hazard",
+    "ground_truth_category": "OPEN_MANHOLE",
+    "ground_truth_department": "Underground Drainage & Safety Department",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.635915,
+    "lng": 77.186971,
+    "latitude": 28.635915,
+    "longitude": 77.186971,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0538,
+      "texture_variance": 0.0572,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0018",
+    "description": "Reported illegal dumping incident on local street",
+    "text": "Reported illegal dumping incident on local street",
+    "ground_truth_category": "ILLEGAL_DUMPING",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.605166,
+    "lng": 77.249126,
+    "latitude": 28.605166,
+    "longitude": 77.249126,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1633,
+      "texture_variance": 0.0486,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0019",
+    "description": "Massive deep crater on the main road",
+    "text": "Massive deep crater on the main road",
+    "ground_truth_category": "POTHOLE",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.633182,
+    "lng": 77.180876,
+    "latitude": 28.633182,
+    "longitude": 77.180876,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0654,
+      "texture_variance": 0.0603,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0020",
+    "description": "Reported damaged road incident on local street",
+    "text": "Reported damaged road incident on local street",
+    "ground_truth_category": "DAMAGED_ROAD",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.631437,
+    "lng": 77.241841,
+    "latitude": 28.631437,
+    "longitude": 77.241841,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0669,
+      "texture_variance": 0.0887,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0021",
+    "description": "Reported footpath incident on local street",
+    "text": "Reported footpath incident on local street",
+    "ground_truth_category": "FOOTPATH",
+    "ground_truth_department": "Civil Infrastructure & Footpath Division",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.628885,
+    "lng": 77.202334,
+    "latitude": 28.628885,
+    "longitude": 77.202334,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1155,
+      "texture_variance": 0.0389,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0022",
+    "description": "Dangerous road cavity near pedestrian crossing",
+    "text": "Dangerous road cavity near pedestrian crossing",
+    "ground_truth_category": "POTHOLE",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.663338,
+    "lng": 77.253366,
+    "latitude": 28.663338,
+    "longitude": 77.253366,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1034,
+      "texture_variance": 0.1133,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0023",
+    "description": "Broken drain lid with open falling hazard",
+    "text": "Broken drain lid with open falling hazard",
+    "ground_truth_category": "OPEN_MANHOLE",
+    "ground_truth_department": "Underground Drainage & Safety Department",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.639955,
+    "lng": 77.202361,
+    "latitude": 28.639955,
+    "longitude": 77.202361,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0477,
+      "texture_variance": 0.0706,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0024",
+    "description": "Reported damaged road incident on local street",
+    "text": "Reported damaged road incident on local street",
+    "ground_truth_category": "DAMAGED_ROAD",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.631277,
+    "lng": 77.257158,
+    "latitude": 28.631277,
+    "longitude": 77.257158,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0867,
+      "texture_variance": 0.033,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0025",
+    "description": "Blinking and non-functional light creating dark spot",
+    "text": "Blinking and non-functional light creating dark spot",
+    "ground_truth_category": "STREETLIGHT",
+    "ground_truth_department": "Electrical & Public Lighting Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.637103,
+    "lng": 77.225403,
+    "latitude": 28.637103,
+    "longitude": 77.225403,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1011,
+      "texture_variance": 0.0986,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0026",
+    "description": "Massive deep crater on the main road",
+    "text": "Massive deep crater on the main road",
+    "ground_truth_category": "POTHOLE",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.65573,
+    "lng": 77.259597,
+    "latitude": 28.65573,
+    "longitude": 77.259597,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1637,
+      "texture_variance": 0.0667,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0027",
+    "description": "Missing metal manhole plate on active traffic lane",
+    "text": "Missing metal manhole plate on active traffic lane",
+    "ground_truth_category": "OPEN_MANHOLE",
+    "ground_truth_department": "Underground Drainage & Safety Department",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.645302,
+    "lng": 77.225853,
+    "latitude": 28.645302,
+    "longitude": 77.225853,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0766,
+      "texture_variance": 0.1062,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0028",
+    "description": "Reported drainage incident on local street",
+    "text": "Reported drainage incident on local street",
+    "ground_truth_category": "DRAINAGE",
+    "ground_truth_department": "Stormwater & Drainage Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.622963,
+    "lng": 77.246137,
+    "latitude": 28.622963,
+    "longitude": 77.246137,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0821,
+      "texture_variance": 0.0409,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0029",
+    "description": "Broken drain lid with open falling hazard",
+    "text": "Broken drain lid with open falling hazard",
+    "ground_truth_category": "OPEN_MANHOLE",
+    "ground_truth_department": "Underground Drainage & Safety Department",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.646265,
+    "lng": 77.251939,
+    "latitude": 28.646265,
+    "longitude": 77.251939,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1532,
+      "texture_variance": 0.0274,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0030",
+    "description": "Reported drainage incident on local street",
+    "text": "Reported drainage incident on local street",
+    "ground_truth_category": "DRAINAGE",
+    "ground_truth_department": "Stormwater & Drainage Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.645925,
+    "lng": 77.257516,
+    "latitude": 28.645925,
+    "longitude": 77.257516,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1657,
+      "texture_variance": 0.0221,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0031",
+    "description": "Reported footpath incident on local street",
+    "text": "Reported footpath incident on local street",
+    "ground_truth_category": "FOOTPATH",
+    "ground_truth_department": "Civil Infrastructure & Footpath Division",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.616664,
+    "lng": 77.223815,
+    "latitude": 28.616664,
+    "longitude": 77.223815,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0444,
+      "texture_variance": 0.0725,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0032",
+    "description": "Blinking and non-functional light creating dark spot",
+    "text": "Blinking and non-functional light creating dark spot",
+    "ground_truth_category": "STREETLIGHT",
+    "ground_truth_department": "Electrical & Public Lighting Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.595073,
+    "lng": 77.228347,
+    "latitude": 28.595073,
+    "longitude": 77.228347,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0793,
+      "texture_variance": 0.0794,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0033",
+    "description": "Reported drainage incident on local street",
+    "text": "Reported drainage incident on local street",
+    "ground_truth_category": "DRAINAGE",
+    "ground_truth_department": "Stormwater & Drainage Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.613373,
+    "lng": 77.251003,
+    "latitude": 28.613373,
+    "longitude": 77.251003,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0859,
+      "texture_variance": 0.0604,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0034",
+    "description": "Reported drainage incident on local street",
+    "text": "Reported drainage incident on local street",
+    "ground_truth_category": "DRAINAGE",
+    "ground_truth_department": "Stormwater & Drainage Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.597493,
+    "lng": 77.205902,
+    "latitude": 28.597493,
+    "longitude": 77.205902,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0426,
+      "texture_variance": 0.0805,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0035",
+    "description": "Rotting food waste and garbage piled up on curb",
+    "text": "Rotting food waste and garbage piled up on curb",
+    "ground_truth_category": "GARBAGE",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.651144,
+    "lng": 77.217808,
+    "latitude": 28.651144,
+    "longitude": 77.217808,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1404,
+      "texture_variance": 0.0494,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0036",
+    "description": "Water supply line cracked near valve",
+    "text": "Water supply line cracked near valve",
+    "ground_truth_category": "WATER_LEAKAGE",
+    "ground_truth_department": "Water Supply & Sewerage Board",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.665815,
+    "lng": 77.212836,
+    "latitude": 28.665815,
+    "longitude": 77.212836,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0911,
+      "texture_variance": 0.1065,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0037",
+    "description": "Reported footpath incident on local street",
+    "text": "Reported footpath incident on local street",
+    "ground_truth_category": "FOOTPATH",
+    "ground_truth_department": "Civil Infrastructure & Footpath Division",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.646796,
+    "lng": 77.219932,
+    "latitude": 28.646796,
+    "longitude": 77.219932,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1617,
+      "texture_variance": 0.0649,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0038",
+    "description": "Reported damaged sign incident on local street",
+    "text": "Reported damaged sign incident on local street",
+    "ground_truth_category": "DAMAGED_SIGN",
+    "ground_truth_department": "Traffic & Road Safety Cell",
+    "ground_truth_severity": "LOW",
+    "ground_truth_priority": "P4",
+    "lat": 28.616636,
+    "lng": 77.237662,
+    "latitude": 28.616636,
+    "longitude": 77.237662,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0478,
+      "texture_variance": 0.0337,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0039",
+    "description": "Reported drainage incident on local street",
+    "text": "Reported drainage incident on local street",
+    "ground_truth_category": "DRAINAGE",
+    "ground_truth_department": "Stormwater & Drainage Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.652961,
+    "lng": 77.187694,
+    "latitude": 28.652961,
+    "longitude": 77.187694,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1778,
+      "texture_variance": 0.1056,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0040",
+    "description": "Reported footpath incident on local street",
+    "text": "Reported footpath incident on local street",
+    "ground_truth_category": "FOOTPATH",
+    "ground_truth_department": "Civil Infrastructure & Footpath Division",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.613778,
+    "lng": 77.248638,
+    "latitude": 28.613778,
+    "longitude": 77.248638,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1,
+      "texture_variance": 0.0771,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0041",
+    "description": "Reported damaged sign incident on local street",
+    "text": "Reported damaged sign incident on local street",
+    "ground_truth_category": "DAMAGED_SIGN",
+    "ground_truth_department": "Traffic & Road Safety Cell",
+    "ground_truth_severity": "LOW",
+    "ground_truth_priority": "P4",
+    "lat": 28.648949,
+    "lng": 77.240591,
+    "latitude": 28.648949,
+    "longitude": 77.240591,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1391,
+      "texture_variance": 0.0697,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0042",
+    "description": "Clean water gushing from broken underground connection",
+    "text": "Clean water gushing from broken underground connection",
+    "ground_truth_category": "WATER_LEAKAGE",
+    "ground_truth_department": "Water Supply & Sewerage Board",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.598589,
+    "lng": 77.192167,
+    "latitude": 28.598589,
+    "longitude": 77.192167,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1326,
+      "texture_variance": 0.1099,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0043",
+    "description": "Cluster of 4 street lamps unlit since yesterday",
+    "text": "Cluster of 4 street lamps unlit since yesterday",
+    "ground_truth_category": "STREETLIGHT",
+    "ground_truth_department": "Electrical & Public Lighting Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.645786,
+    "lng": 77.199999,
+    "latitude": 28.645786,
+    "longitude": 77.199999,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0641,
+      "texture_variance": 0.086,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0044",
+    "description": "Drinking water main pipeline burst flooding street",
+    "text": "Drinking water main pipeline burst flooding street",
+    "ground_truth_category": "WATER_LEAKAGE",
+    "ground_truth_department": "Water Supply & Sewerage Board",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.621521,
+    "lng": 77.185518,
+    "latitude": 28.621521,
+    "longitude": 77.185518,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0654,
+      "texture_variance": 0.0881,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0045",
+    "description": "Reported footpath incident on local street",
+    "text": "Reported footpath incident on local street",
+    "ground_truth_category": "FOOTPATH",
+    "ground_truth_department": "Civil Infrastructure & Footpath Division",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.658549,
+    "lng": 77.21179,
+    "latitude": 28.658549,
+    "longitude": 77.21179,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1016,
+      "texture_variance": 0.0869,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0046",
+    "description": "Reported illegal dumping incident on local street",
+    "text": "Reported illegal dumping incident on local street",
+    "ground_truth_category": "ILLEGAL_DUMPING",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.632399,
+    "lng": 77.193867,
+    "latitude": 28.632399,
+    "longitude": 77.193867,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1308,
+      "texture_variance": 0.0213,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0047",
+    "description": "Massive deep crater on the main road",
+    "text": "Massive deep crater on the main road",
+    "ground_truth_category": "POTHOLE",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.671276,
+    "lng": 77.18523,
+    "latitude": 28.671276,
+    "longitude": 77.18523,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1576,
+      "texture_variance": 0.0967,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0048",
+    "description": "Uncollected municipal trash heap attracting stray animals",
+    "text": "Uncollected municipal trash heap attracting stray animals",
+    "ground_truth_category": "GARBAGE",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.648765,
+    "lng": 77.197168,
+    "latitude": 28.648765,
+    "longitude": 77.197168,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1764,
+      "texture_variance": 0.0775,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0049",
+    "description": "Streetlight pole completely dark on residential avenue",
+    "text": "Streetlight pole completely dark on residential avenue",
+    "ground_truth_category": "STREETLIGHT",
+    "ground_truth_department": "Electrical & Public Lighting Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.658137,
+    "lng": 77.196483,
+    "latitude": 28.658137,
+    "longitude": 77.196483,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0907,
+      "texture_variance": 0.0343,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0050",
+    "description": "Reported footpath incident on local street",
+    "text": "Reported footpath incident on local street",
+    "ground_truth_category": "FOOTPATH",
+    "ground_truth_department": "Civil Infrastructure & Footpath Division",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.634769,
+    "lng": 77.185482,
+    "latitude": 28.634769,
+    "longitude": 77.185482,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1691,
+      "texture_variance": 0.0727,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0051",
+    "description": "Deep asphalt hole right after the turn",
+    "text": "Deep asphalt hole right after the turn",
+    "ground_truth_category": "POTHOLE",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.610394,
+    "lng": 77.216574,
+    "latitude": 28.610394,
+    "longitude": 77.216574,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1277,
+      "texture_variance": 0.0781,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0052",
+    "description": "Drinking water main pipeline burst flooding street",
+    "text": "Drinking water main pipeline burst flooding street",
+    "ground_truth_category": "WATER_LEAKAGE",
+    "ground_truth_department": "Water Supply & Sewerage Board",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.668417,
+    "lng": 77.239507,
+    "latitude": 28.668417,
+    "longitude": 77.239507,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1674,
+      "texture_variance": 0.0521,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0053",
+    "description": "Drinking water main pipeline burst flooding street",
+    "text": "Drinking water main pipeline burst flooding street",
+    "ground_truth_category": "WATER_LEAKAGE",
+    "ground_truth_department": "Water Supply & Sewerage Board",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.660516,
+    "lng": 77.179785,
+    "latitude": 28.660516,
+    "longitude": 77.179785,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.081,
+      "texture_variance": 0.112,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0054",
+    "description": "Water supply line cracked near valve",
+    "text": "Water supply line cracked near valve",
+    "ground_truth_category": "WATER_LEAKAGE",
+    "ground_truth_department": "Water Supply & Sewerage Board",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.636287,
+    "lng": 77.220914,
+    "latitude": 28.636287,
+    "longitude": 77.220914,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1487,
+      "texture_variance": 0.0466,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0055",
+    "description": "Reported drainage incident on local street",
+    "text": "Reported drainage incident on local street",
+    "ground_truth_category": "DRAINAGE",
+    "ground_truth_department": "Stormwater & Drainage Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.644984,
+    "lng": 77.20788,
+    "latitude": 28.644984,
+    "longitude": 77.20788,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1406,
+      "texture_variance": 0.0591,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0056",
+    "description": "Reported drainage incident on local street",
+    "text": "Reported drainage incident on local street",
+    "ground_truth_category": "DRAINAGE",
+    "ground_truth_department": "Stormwater & Drainage Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.593629,
+    "lng": 77.193419,
+    "latitude": 28.593629,
+    "longitude": 77.193419,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1604,
+      "texture_variance": 0.0858,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0057",
+    "description": "Blinking and non-functional light creating dark spot",
+    "text": "Blinking and non-functional light creating dark spot",
+    "ground_truth_category": "STREETLIGHT",
+    "ground_truth_department": "Electrical & Public Lighting Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.655094,
+    "lng": 77.196456,
+    "latitude": 28.655094,
+    "longitude": 77.196456,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1709,
+      "texture_variance": 0.0235,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0058",
+    "description": "Uncovered drainage chamber on footpath",
+    "text": "Uncovered drainage chamber on footpath",
+    "ground_truth_category": "OPEN_MANHOLE",
+    "ground_truth_department": "Underground Drainage & Safety Department",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.597108,
+    "lng": 77.241908,
+    "latitude": 28.597108,
+    "longitude": 77.241908,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.147,
+      "texture_variance": 0.064,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0059",
+    "description": "Reported drainage incident on local street",
+    "text": "Reported drainage incident on local street",
+    "ground_truth_category": "DRAINAGE",
+    "ground_truth_department": "Stormwater & Drainage Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.639195,
+    "lng": 77.222538,
+    "latitude": 28.639195,
+    "longitude": 77.222538,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1133,
+      "texture_variance": 0.0279,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0060",
+    "description": "Reported damaged sign incident on local street",
+    "text": "Reported damaged sign incident on local street",
+    "ground_truth_category": "DAMAGED_SIGN",
+    "ground_truth_department": "Traffic & Road Safety Cell",
+    "ground_truth_severity": "LOW",
+    "ground_truth_priority": "P4",
+    "lat": 28.644239,
+    "lng": 77.240294,
+    "latitude": 28.644239,
+    "longitude": 77.240294,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1272,
+      "texture_variance": 0.0569,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0061",
+    "description": "Dangerous road cavity near pedestrian crossing",
+    "text": "Dangerous road cavity near pedestrian crossing",
+    "ground_truth_category": "POTHOLE",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.615412,
+    "lng": 77.259649,
+    "latitude": 28.615412,
+    "longitude": 77.259649,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1645,
+      "texture_variance": 0.0804,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0062",
+    "description": "Reported damaged sign incident on local street",
+    "text": "Reported damaged sign incident on local street",
+    "ground_truth_category": "DAMAGED_SIGN",
+    "ground_truth_department": "Traffic & Road Safety Cell",
+    "ground_truth_severity": "LOW",
+    "ground_truth_priority": "P4",
+    "lat": 28.600678,
+    "lng": 77.223065,
+    "latitude": 28.600678,
+    "longitude": 77.223065,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0888,
+      "texture_variance": 0.0439,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0063",
+    "description": "Reported drainage incident on local street",
+    "text": "Reported drainage incident on local street",
+    "ground_truth_category": "DRAINAGE",
+    "ground_truth_department": "Stormwater & Drainage Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.654991,
+    "lng": 77.219209,
+    "latitude": 28.654991,
+    "longitude": 77.219209,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1682,
+      "texture_variance": 0.0679,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0064",
+    "description": "Damaged street lamp fixture after storm",
+    "text": "Damaged street lamp fixture after storm",
+    "ground_truth_category": "STREETLIGHT",
+    "ground_truth_department": "Electrical & Public Lighting Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.603052,
+    "lng": 77.182098,
+    "latitude": 28.603052,
+    "longitude": 77.182098,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.116,
+      "texture_variance": 0.0634,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0065",
+    "description": "Reported drainage incident on local street",
+    "text": "Reported drainage incident on local street",
+    "ground_truth_category": "DRAINAGE",
+    "ground_truth_department": "Stormwater & Drainage Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.594232,
+    "lng": 77.194098,
+    "latitude": 28.594232,
+    "longitude": 77.194098,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1235,
+      "texture_variance": 0.036,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0066",
+    "description": "Massive deep crater on the main road",
+    "text": "Massive deep crater on the main road",
+    "ground_truth_category": "POTHOLE",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.65183,
+    "lng": 77.22982,
+    "latitude": 28.65183,
+    "longitude": 77.22982,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.155,
+      "texture_variance": 0.0456,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0067",
+    "description": "Broken drain lid with open falling hazard",
+    "text": "Broken drain lid with open falling hazard",
+    "ground_truth_category": "OPEN_MANHOLE",
+    "ground_truth_department": "Underground Drainage & Safety Department",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.598969,
+    "lng": 77.200721,
+    "latitude": 28.598969,
+    "longitude": 77.200721,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1048,
+      "texture_variance": 0.0991,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0068",
+    "description": "Deep asphalt hole right after the turn",
+    "text": "Deep asphalt hole right after the turn",
+    "ground_truth_category": "POTHOLE",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.615387,
+    "lng": 77.210173,
+    "latitude": 28.615387,
+    "longitude": 77.210173,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0776,
+      "texture_variance": 0.0605,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0069",
+    "description": "Reported footpath incident on local street",
+    "text": "Reported footpath incident on local street",
+    "ground_truth_category": "FOOTPATH",
+    "ground_truth_department": "Civil Infrastructure & Footpath Division",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.64835,
+    "lng": 77.185468,
+    "latitude": 28.64835,
+    "longitude": 77.185468,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0811,
+      "texture_variance": 0.0679,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0070",
+    "description": "Broken lamp post with exposed casing",
+    "text": "Broken lamp post with exposed casing",
+    "ground_truth_category": "STREETLIGHT",
+    "ground_truth_department": "Electrical & Public Lighting Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.658376,
+    "lng": 77.225074,
+    "latitude": 28.658376,
+    "longitude": 77.225074,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1422,
+      "texture_variance": 0.0332,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0071",
+    "description": "Dangerous road cavity near pedestrian crossing",
+    "text": "Dangerous road cavity near pedestrian crossing",
+    "ground_truth_category": "POTHOLE",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.64818,
+    "lng": 77.235335,
+    "latitude": 28.64818,
+    "longitude": 77.235335,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1074,
+      "texture_variance": 0.0828,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0072",
+    "description": "Pothole causing severe vehicle damage and traffic bottleneck",
+    "text": "Pothole causing severe vehicle damage and traffic bottleneck",
+    "ground_truth_category": "POTHOLE",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.648906,
+    "lng": 77.235085,
+    "latitude": 28.648906,
+    "longitude": 77.235085,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0664,
+      "texture_variance": 0.058,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0073",
+    "description": "Overflowing garbage dumpster blocking sidewalk",
+    "text": "Overflowing garbage dumpster blocking sidewalk",
+    "ground_truth_category": "GARBAGE",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.647803,
+    "lng": 77.240435,
+    "latitude": 28.647803,
+    "longitude": 77.240435,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1786,
+      "texture_variance": 0.0341,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0074",
+    "description": "Reported damaged sign incident on local street",
+    "text": "Reported damaged sign incident on local street",
+    "ground_truth_category": "DAMAGED_SIGN",
+    "ground_truth_department": "Traffic & Road Safety Cell",
+    "ground_truth_severity": "LOW",
+    "ground_truth_priority": "P4",
+    "lat": 28.654242,
+    "lng": 77.21441,
+    "latitude": 28.654242,
+    "longitude": 77.21441,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1093,
+      "texture_variance": 0.1062,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0075",
+    "description": "Overflowing garbage dumpster blocking sidewalk",
+    "text": "Overflowing garbage dumpster blocking sidewalk",
+    "ground_truth_category": "GARBAGE",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.66241,
+    "lng": 77.181046,
+    "latitude": 28.66241,
+    "longitude": 77.181046,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.094,
+      "texture_variance": 0.0684,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0076",
+    "description": "Clean water gushing from broken underground connection",
+    "text": "Clean water gushing from broken underground connection",
+    "ground_truth_category": "WATER_LEAKAGE",
+    "ground_truth_department": "Water Supply & Sewerage Board",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.633923,
+    "lng": 77.203695,
+    "latitude": 28.633923,
+    "longitude": 77.203695,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1787,
+      "texture_variance": 0.0403,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0077",
+    "description": "Uncovered drainage chamber on footpath",
+    "text": "Uncovered drainage chamber on footpath",
+    "ground_truth_category": "OPEN_MANHOLE",
+    "ground_truth_department": "Underground Drainage & Safety Department",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.668763,
+    "lng": 77.228899,
+    "latitude": 28.668763,
+    "longitude": 77.228899,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1697,
+      "texture_variance": 0.0422,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0078",
+    "description": "Blinking and non-functional light creating dark spot",
+    "text": "Blinking and non-functional light creating dark spot",
+    "ground_truth_category": "STREETLIGHT",
+    "ground_truth_department": "Electrical & Public Lighting Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.60024,
+    "lng": 77.189903,
+    "latitude": 28.60024,
+    "longitude": 77.189903,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1524,
+      "texture_variance": 0.0261,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0079",
+    "description": "Reported damaged sign incident on local street",
+    "text": "Reported damaged sign incident on local street",
+    "ground_truth_category": "DAMAGED_SIGN",
+    "ground_truth_department": "Traffic & Road Safety Cell",
+    "ground_truth_severity": "LOW",
+    "ground_truth_priority": "P4",
+    "lat": 28.633389,
+    "lng": 77.251253,
+    "latitude": 28.633389,
+    "longitude": 77.251253,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0557,
+      "texture_variance": 0.0728,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0080",
+    "description": "Water supply line cracked near valve",
+    "text": "Water supply line cracked near valve",
+    "ground_truth_category": "WATER_LEAKAGE",
+    "ground_truth_department": "Water Supply & Sewerage Board",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.672696,
+    "lng": 77.253852,
+    "latitude": 28.672696,
+    "longitude": 77.253852,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.148,
+      "texture_variance": 0.0303,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0081",
+    "description": "Reported drainage incident on local street",
+    "text": "Reported drainage incident on local street",
+    "ground_truth_category": "DRAINAGE",
+    "ground_truth_department": "Stormwater & Drainage Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.667877,
+    "lng": 77.210844,
+    "latitude": 28.667877,
+    "longitude": 77.210844,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1771,
+      "texture_variance": 0.0293,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0082",
+    "description": "Reported illegal dumping incident on local street",
+    "text": "Reported illegal dumping incident on local street",
+    "ground_truth_category": "ILLEGAL_DUMPING",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.622661,
+    "lng": 77.247906,
+    "latitude": 28.622661,
+    "longitude": 77.247906,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1169,
+      "texture_variance": 0.0305,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0083",
+    "description": "Dangerous open sewer pit right in front of school",
+    "text": "Dangerous open sewer pit right in front of school",
+    "ground_truth_category": "OPEN_MANHOLE",
+    "ground_truth_department": "Underground Drainage & Safety Department",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.63754,
+    "lng": 77.181218,
+    "latitude": 28.63754,
+    "longitude": 77.181218,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1188,
+      "texture_variance": 0.0525,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0084",
+    "description": "Broken drain lid with open falling hazard",
+    "text": "Broken drain lid with open falling hazard",
+    "ground_truth_category": "OPEN_MANHOLE",
+    "ground_truth_department": "Underground Drainage & Safety Department",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.620715,
+    "lng": 77.21377,
+    "latitude": 28.620715,
+    "longitude": 77.21377,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1565,
+      "texture_variance": 0.0894,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0085",
+    "description": "Reported footpath incident on local street",
+    "text": "Reported footpath incident on local street",
+    "ground_truth_category": "FOOTPATH",
+    "ground_truth_department": "Civil Infrastructure & Footpath Division",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.648575,
+    "lng": 77.241893,
+    "latitude": 28.648575,
+    "longitude": 77.241893,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1646,
+      "texture_variance": 0.0794,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0086",
+    "description": "Reported damaged sign incident on local street",
+    "text": "Reported damaged sign incident on local street",
+    "ground_truth_category": "DAMAGED_SIGN",
+    "ground_truth_department": "Traffic & Road Safety Cell",
+    "ground_truth_severity": "LOW",
+    "ground_truth_priority": "P4",
+    "lat": 28.66723,
+    "lng": 77.240396,
+    "latitude": 28.66723,
+    "longitude": 77.240396,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0778,
+      "texture_variance": 0.0651,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0087",
+    "description": "Continuous water supply pipe leakage under tarmac",
+    "text": "Continuous water supply pipe leakage under tarmac",
+    "ground_truth_category": "WATER_LEAKAGE",
+    "ground_truth_department": "Water Supply & Sewerage Board",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.650806,
+    "lng": 77.255901,
+    "latitude": 28.650806,
+    "longitude": 77.255901,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.072,
+      "texture_variance": 0.0518,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0088",
+    "description": "Reported damaged road incident on local street",
+    "text": "Reported damaged road incident on local street",
+    "ground_truth_category": "DAMAGED_ROAD",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.608756,
+    "lng": 77.19943,
+    "latitude": 28.608756,
+    "longitude": 77.19943,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0697,
+      "texture_variance": 0.0575,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0089",
+    "description": "Reported illegal dumping incident on local street",
+    "text": "Reported illegal dumping incident on local street",
+    "ground_truth_category": "ILLEGAL_DUMPING",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.608132,
+    "lng": 77.207642,
+    "latitude": 28.608132,
+    "longitude": 77.207642,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1082,
+      "texture_variance": 0.0538,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0090",
+    "description": "Broken lamp post with exposed casing",
+    "text": "Broken lamp post with exposed casing",
+    "ground_truth_category": "STREETLIGHT",
+    "ground_truth_department": "Electrical & Public Lighting Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.644842,
+    "lng": 77.198516,
+    "latitude": 28.644842,
+    "longitude": 77.198516,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0962,
+      "texture_variance": 0.0487,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0091",
+    "description": "Reported footpath incident on local street",
+    "text": "Reported footpath incident on local street",
+    "ground_truth_category": "FOOTPATH",
+    "ground_truth_department": "Civil Infrastructure & Footpath Division",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.617278,
+    "lng": 77.233968,
+    "latitude": 28.617278,
+    "longitude": 77.233968,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1494,
+      "texture_variance": 0.0462,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0092",
+    "description": "Blinking and non-functional light creating dark spot",
+    "text": "Blinking and non-functional light creating dark spot",
+    "ground_truth_category": "STREETLIGHT",
+    "ground_truth_department": "Electrical & Public Lighting Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.606649,
+    "lng": 77.242035,
+    "latitude": 28.606649,
+    "longitude": 77.242035,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0793,
+      "texture_variance": 0.0972,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0093",
+    "description": "Missing metal manhole plate on active traffic lane",
+    "text": "Missing metal manhole plate on active traffic lane",
+    "ground_truth_category": "OPEN_MANHOLE",
+    "ground_truth_department": "Underground Drainage & Safety Department",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.668012,
+    "lng": 77.200542,
+    "latitude": 28.668012,
+    "longitude": 77.200542,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1281,
+      "texture_variance": 0.058,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0094",
+    "description": "Reported damaged road incident on local street",
+    "text": "Reported damaged road incident on local street",
+    "ground_truth_category": "DAMAGED_ROAD",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.61577,
+    "lng": 77.19757,
+    "latitude": 28.61577,
+    "longitude": 77.19757,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1015,
+      "texture_variance": 0.0763,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0095",
+    "description": "Dangerous open sewer pit right in front of school",
+    "text": "Dangerous open sewer pit right in front of school",
+    "ground_truth_category": "OPEN_MANHOLE",
+    "ground_truth_department": "Underground Drainage & Safety Department",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.644,
+    "lng": 77.179993,
+    "latitude": 28.644,
+    "longitude": 77.179993,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0738,
+      "texture_variance": 0.1034,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0096",
+    "description": "Multiple road depressions after heavy monsoon rains",
+    "text": "Multiple road depressions after heavy monsoon rains",
+    "ground_truth_category": "POTHOLE",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.62037,
+    "lng": 77.184284,
+    "latitude": 28.62037,
+    "longitude": 77.184284,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1361,
+      "texture_variance": 0.0456,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0097",
+    "description": "Water supply line cracked near valve",
+    "text": "Water supply line cracked near valve",
+    "ground_truth_category": "WATER_LEAKAGE",
+    "ground_truth_department": "Water Supply & Sewerage Board",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.656212,
+    "lng": 77.210522,
+    "latitude": 28.656212,
+    "longitude": 77.210522,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0658,
+      "texture_variance": 0.0438,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0098",
+    "description": "High pressure water pipe rupture wasting potable water",
+    "text": "High pressure water pipe rupture wasting potable water",
+    "ground_truth_category": "WATER_LEAKAGE",
+    "ground_truth_department": "Water Supply & Sewerage Board",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.613426,
+    "lng": 77.205626,
+    "latitude": 28.613426,
+    "longitude": 77.205626,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1108,
+      "texture_variance": 0.0688,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0099",
+    "description": "Reported drainage incident on local street",
+    "text": "Reported drainage incident on local street",
+    "ground_truth_category": "DRAINAGE",
+    "ground_truth_department": "Stormwater & Drainage Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.594532,
+    "lng": 77.200933,
+    "latitude": 28.594532,
+    "longitude": 77.200933,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.11,
+      "texture_variance": 0.0567,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0100",
+    "description": "Broken drain lid with open falling hazard",
+    "text": "Broken drain lid with open falling hazard",
+    "ground_truth_category": "OPEN_MANHOLE",
+    "ground_truth_department": "Underground Drainage & Safety Department",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.636107,
+    "lng": 77.211872,
+    "latitude": 28.636107,
+    "longitude": 77.211872,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.106,
+      "texture_variance": 0.0986,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0101",
+    "description": "Reported damaged road incident on local street",
+    "text": "Reported damaged road incident on local street",
+    "ground_truth_category": "DAMAGED_ROAD",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.628903,
+    "lng": 77.210649,
+    "latitude": 28.628903,
+    "longitude": 77.210649,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1475,
+      "texture_variance": 0.1196,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0102",
+    "description": "Dangerous open sewer pit right in front of school",
+    "text": "Dangerous open sewer pit right in front of school",
+    "ground_truth_category": "OPEN_MANHOLE",
+    "ground_truth_department": "Underground Drainage & Safety Department",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.666792,
+    "lng": 77.241729,
+    "latitude": 28.666792,
+    "longitude": 77.241729,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.063,
+      "texture_variance": 0.089,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0103",
+    "description": "Reported damaged road incident on local street",
+    "text": "Reported damaged road incident on local street",
+    "ground_truth_category": "DAMAGED_ROAD",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.61002,
+    "lng": 77.20136,
+    "latitude": 28.61002,
+    "longitude": 77.20136,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0954,
+      "texture_variance": 0.0597,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0104",
+    "description": "Reported illegal dumping incident on local street",
+    "text": "Reported illegal dumping incident on local street",
+    "ground_truth_category": "ILLEGAL_DUMPING",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.666306,
+    "lng": 77.223588,
+    "latitude": 28.666306,
+    "longitude": 77.223588,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1241,
+      "texture_variance": 0.1014,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0105",
+    "description": "Reported damaged road incident on local street",
+    "text": "Reported damaged road incident on local street",
+    "ground_truth_category": "DAMAGED_ROAD",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.596302,
+    "lng": 77.205092,
+    "latitude": 28.596302,
+    "longitude": 77.205092,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1383,
+      "texture_variance": 0.1061,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0106",
+    "description": "Drinking water main pipeline burst flooding street",
+    "text": "Drinking water main pipeline burst flooding street",
+    "ground_truth_category": "WATER_LEAKAGE",
+    "ground_truth_department": "Water Supply & Sewerage Board",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.603096,
+    "lng": 77.184798,
+    "latitude": 28.603096,
+    "longitude": 77.184798,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.176,
+      "texture_variance": 0.0337,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0107",
+    "description": "Reported footpath incident on local street",
+    "text": "Reported footpath incident on local street",
+    "ground_truth_category": "FOOTPATH",
+    "ground_truth_department": "Civil Infrastructure & Footpath Division",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.632542,
+    "lng": 77.218126,
+    "latitude": 28.632542,
+    "longitude": 77.218126,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0701,
+      "texture_variance": 0.0296,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0108",
+    "description": "Reported damaged sign incident on local street",
+    "text": "Reported damaged sign incident on local street",
+    "ground_truth_category": "DAMAGED_SIGN",
+    "ground_truth_department": "Traffic & Road Safety Cell",
+    "ground_truth_severity": "LOW",
+    "ground_truth_priority": "P4",
+    "lat": 28.628523,
+    "lng": 77.20073,
+    "latitude": 28.628523,
+    "longitude": 77.20073,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1241,
+      "texture_variance": 0.0492,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0109",
+    "description": "Open manhole chamber missing concrete cover",
+    "text": "Open manhole chamber missing concrete cover",
+    "ground_truth_category": "OPEN_MANHOLE",
+    "ground_truth_department": "Underground Drainage & Safety Department",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.594831,
+    "lng": 77.256068,
+    "latitude": 28.594831,
+    "longitude": 77.256068,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0685,
+      "texture_variance": 0.1127,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0110",
+    "description": "Reported damaged sign incident on local street",
+    "text": "Reported damaged sign incident on local street",
+    "ground_truth_category": "DAMAGED_SIGN",
+    "ground_truth_department": "Traffic & Road Safety Cell",
+    "ground_truth_severity": "LOW",
+    "ground_truth_priority": "P4",
+    "lat": 28.618876,
+    "lng": 77.215439,
+    "latitude": 28.618876,
+    "longitude": 77.215439,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1729,
+      "texture_variance": 0.0632,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0111",
+    "description": "Reported drainage incident on local street",
+    "text": "Reported drainage incident on local street",
+    "ground_truth_category": "DRAINAGE",
+    "ground_truth_department": "Stormwater & Drainage Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.617278,
+    "lng": 77.182538,
+    "latitude": 28.617278,
+    "longitude": 77.182538,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1577,
+      "texture_variance": 0.087,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0112",
+    "description": "Reported footpath incident on local street",
+    "text": "Reported footpath incident on local street",
+    "ground_truth_category": "FOOTPATH",
+    "ground_truth_department": "Civil Infrastructure & Footpath Division",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.621616,
+    "lng": 77.253218,
+    "latitude": 28.621616,
+    "longitude": 77.253218,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0525,
+      "texture_variance": 0.021,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0113",
+    "description": "Reported illegal dumping incident on local street",
+    "text": "Reported illegal dumping incident on local street",
+    "ground_truth_category": "ILLEGAL_DUMPING",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.634687,
+    "lng": 77.229311,
+    "latitude": 28.634687,
+    "longitude": 77.229311,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0453,
+      "texture_variance": 0.0445,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0114",
+    "description": "Drinking water main pipeline burst flooding street",
+    "text": "Drinking water main pipeline burst flooding street",
+    "ground_truth_category": "WATER_LEAKAGE",
+    "ground_truth_department": "Water Supply & Sewerage Board",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.617556,
+    "lng": 77.248482,
+    "latitude": 28.617556,
+    "longitude": 77.248482,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0741,
+      "texture_variance": 0.0726,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0115",
+    "description": "Reported damaged road incident on local street",
+    "text": "Reported damaged road incident on local street",
+    "ground_truth_category": "DAMAGED_ROAD",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.62702,
+    "lng": 77.226177,
+    "latitude": 28.62702,
+    "longitude": 77.226177,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1413,
+      "texture_variance": 0.0751,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0116",
+    "description": "Uncollected municipal trash heap attracting stray animals",
+    "text": "Uncollected municipal trash heap attracting stray animals",
+    "ground_truth_category": "GARBAGE",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.624685,
+    "lng": 77.21889,
+    "latitude": 28.624685,
+    "longitude": 77.21889,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0715,
+      "texture_variance": 0.0835,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0117",
+    "description": "Uncollected municipal trash heap attracting stray animals",
+    "text": "Uncollected municipal trash heap attracting stray animals",
+    "ground_truth_category": "GARBAGE",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.651265,
+    "lng": 77.210899,
+    "latitude": 28.651265,
+    "longitude": 77.210899,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1114,
+      "texture_variance": 0.0226,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0118",
+    "description": "Reported footpath incident on local street",
+    "text": "Reported footpath incident on local street",
+    "ground_truth_category": "FOOTPATH",
+    "ground_truth_department": "Civil Infrastructure & Footpath Division",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.638235,
+    "lng": 77.243748,
+    "latitude": 28.638235,
+    "longitude": 77.243748,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1724,
+      "texture_variance": 0.0292,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0119",
+    "description": "Reported drainage incident on local street",
+    "text": "Reported drainage incident on local street",
+    "ground_truth_category": "DRAINAGE",
+    "ground_truth_department": "Stormwater & Drainage Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.604596,
+    "lng": 77.192095,
+    "latitude": 28.604596,
+    "longitude": 77.192095,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0823,
+      "texture_variance": 0.0723,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0120",
+    "description": "Foul smell from overflowing waste bin near community center",
+    "text": "Foul smell from overflowing waste bin near community center",
+    "ground_truth_category": "GARBAGE",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.598292,
+    "lng": 77.181462,
+    "latitude": 28.598292,
+    "longitude": 77.181462,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0631,
+      "texture_variance": 0.0488,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0121",
+    "description": "Reported drainage incident on local street",
+    "text": "Reported drainage incident on local street",
+    "ground_truth_category": "DRAINAGE",
+    "ground_truth_department": "Stormwater & Drainage Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.633545,
+    "lng": 77.194707,
+    "latitude": 28.633545,
+    "longitude": 77.194707,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1457,
+      "texture_variance": 0.0347,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0122",
+    "description": "Reported illegal dumping incident on local street",
+    "text": "Reported illegal dumping incident on local street",
+    "ground_truth_category": "ILLEGAL_DUMPING",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.625167,
+    "lng": 77.225328,
+    "latitude": 28.625167,
+    "longitude": 77.225328,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1558,
+      "texture_variance": 0.0579,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0123",
+    "description": "Reported illegal dumping incident on local street",
+    "text": "Reported illegal dumping incident on local street",
+    "ground_truth_category": "ILLEGAL_DUMPING",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.660206,
+    "lng": 77.257676,
+    "latitude": 28.660206,
+    "longitude": 77.257676,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1674,
+      "texture_variance": 0.0247,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0124",
+    "description": "Multiple road depressions after heavy monsoon rains",
+    "text": "Multiple road depressions after heavy monsoon rains",
+    "ground_truth_category": "POTHOLE",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.622127,
+    "lng": 77.206889,
+    "latitude": 28.622127,
+    "longitude": 77.206889,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0988,
+      "texture_variance": 0.1111,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0125",
+    "description": "Reported footpath incident on local street",
+    "text": "Reported footpath incident on local street",
+    "ground_truth_category": "FOOTPATH",
+    "ground_truth_department": "Civil Infrastructure & Footpath Division",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.643173,
+    "lng": 77.248348,
+    "latitude": 28.643173,
+    "longitude": 77.248348,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0779,
+      "texture_variance": 0.1076,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0126",
+    "description": "Reported footpath incident on local street",
+    "text": "Reported footpath incident on local street",
+    "ground_truth_category": "FOOTPATH",
+    "ground_truth_department": "Civil Infrastructure & Footpath Division",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.65178,
+    "lng": 77.19385,
+    "latitude": 28.65178,
+    "longitude": 77.19385,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0822,
+      "texture_variance": 0.1118,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0127",
+    "description": "Open manhole chamber missing concrete cover",
+    "text": "Open manhole chamber missing concrete cover",
+    "ground_truth_category": "OPEN_MANHOLE",
+    "ground_truth_department": "Underground Drainage & Safety Department",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.605243,
+    "lng": 77.189972,
+    "latitude": 28.605243,
+    "longitude": 77.189972,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1122,
+      "texture_variance": 0.1183,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0128",
+    "description": "Broken lamp post with exposed casing",
+    "text": "Broken lamp post with exposed casing",
+    "ground_truth_category": "STREETLIGHT",
+    "ground_truth_department": "Electrical & Public Lighting Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.659082,
+    "lng": 77.199889,
+    "latitude": 28.659082,
+    "longitude": 77.199889,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1427,
+      "texture_variance": 0.0413,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0129",
+    "description": "Reported damaged road incident on local street",
+    "text": "Reported damaged road incident on local street",
+    "ground_truth_category": "DAMAGED_ROAD",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.659916,
+    "lng": 77.186482,
+    "latitude": 28.659916,
+    "longitude": 77.186482,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1735,
+      "texture_variance": 0.0467,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0130",
+    "description": "Reported damaged sign incident on local street",
+    "text": "Reported damaged sign incident on local street",
+    "ground_truth_category": "DAMAGED_SIGN",
+    "ground_truth_department": "Traffic & Road Safety Cell",
+    "ground_truth_severity": "LOW",
+    "ground_truth_priority": "P4",
+    "lat": 28.622526,
+    "lng": 77.191885,
+    "latitude": 28.622526,
+    "longitude": 77.191885,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1562,
+      "texture_variance": 0.1129,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0131",
+    "description": "Reported drainage incident on local street",
+    "text": "Reported drainage incident on local street",
+    "ground_truth_category": "DRAINAGE",
+    "ground_truth_department": "Stormwater & Drainage Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.656923,
+    "lng": 77.255219,
+    "latitude": 28.656923,
+    "longitude": 77.255219,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0578,
+      "texture_variance": 0.0242,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0132",
+    "description": "Continuous water supply pipe leakage under tarmac",
+    "text": "Continuous water supply pipe leakage under tarmac",
+    "ground_truth_category": "WATER_LEAKAGE",
+    "ground_truth_department": "Water Supply & Sewerage Board",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.667792,
+    "lng": 77.2289,
+    "latitude": 28.667792,
+    "longitude": 77.2289,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1447,
+      "texture_variance": 0.0998,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0133",
+    "description": "Reported damaged sign incident on local street",
+    "text": "Reported damaged sign incident on local street",
+    "ground_truth_category": "DAMAGED_SIGN",
+    "ground_truth_department": "Traffic & Road Safety Cell",
+    "ground_truth_severity": "LOW",
+    "ground_truth_priority": "P4",
+    "lat": 28.601801,
+    "lng": 77.187532,
+    "latitude": 28.601801,
+    "longitude": 77.187532,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0449,
+      "texture_variance": 0.0857,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0134",
+    "description": "Water supply line cracked near valve",
+    "text": "Water supply line cracked near valve",
+    "ground_truth_category": "WATER_LEAKAGE",
+    "ground_truth_department": "Water Supply & Sewerage Board",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.600079,
+    "lng": 77.229584,
+    "latitude": 28.600079,
+    "longitude": 77.229584,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0666,
+      "texture_variance": 0.0204,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0135",
+    "description": "High pressure water pipe rupture wasting potable water",
+    "text": "High pressure water pipe rupture wasting potable water",
+    "ground_truth_category": "WATER_LEAKAGE",
+    "ground_truth_department": "Water Supply & Sewerage Board",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.602182,
+    "lng": 77.227766,
+    "latitude": 28.602182,
+    "longitude": 77.227766,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0593,
+      "texture_variance": 0.0701,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0136",
+    "description": "Broken lamp post with exposed casing",
+    "text": "Broken lamp post with exposed casing",
+    "ground_truth_category": "STREETLIGHT",
+    "ground_truth_department": "Electrical & Public Lighting Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.615949,
+    "lng": 77.183472,
+    "latitude": 28.615949,
+    "longitude": 77.183472,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.075,
+      "texture_variance": 0.0535,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0137",
+    "description": "Reported damaged sign incident on local street",
+    "text": "Reported damaged sign incident on local street",
+    "ground_truth_category": "DAMAGED_SIGN",
+    "ground_truth_department": "Traffic & Road Safety Cell",
+    "ground_truth_severity": "LOW",
+    "ground_truth_priority": "P4",
+    "lat": 28.647226,
+    "lng": 77.249836,
+    "latitude": 28.647226,
+    "longitude": 77.249836,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1247,
+      "texture_variance": 0.0767,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0138",
+    "description": "Reported damaged road incident on local street",
+    "text": "Reported damaged road incident on local street",
+    "ground_truth_category": "DAMAGED_ROAD",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.599394,
+    "lng": 77.24404,
+    "latitude": 28.599394,
+    "longitude": 77.24404,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1323,
+      "texture_variance": 0.0357,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0139",
+    "description": "Dangerous road cavity near pedestrian crossing",
+    "text": "Dangerous road cavity near pedestrian crossing",
+    "ground_truth_category": "POTHOLE",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.670659,
+    "lng": 77.249444,
+    "latitude": 28.670659,
+    "longitude": 77.249444,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0957,
+      "texture_variance": 0.0943,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0140",
+    "description": "Reported footpath incident on local street",
+    "text": "Reported footpath incident on local street",
+    "ground_truth_category": "FOOTPATH",
+    "ground_truth_department": "Civil Infrastructure & Footpath Division",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.614564,
+    "lng": 77.22799,
+    "latitude": 28.614564,
+    "longitude": 77.22799,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0567,
+      "texture_variance": 0.0593,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0141",
+    "description": "Cluster of 4 street lamps unlit since yesterday",
+    "text": "Cluster of 4 street lamps unlit since yesterday",
+    "ground_truth_category": "STREETLIGHT",
+    "ground_truth_department": "Electrical & Public Lighting Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.601359,
+    "lng": 77.220076,
+    "latitude": 28.601359,
+    "longitude": 77.220076,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1359,
+      "texture_variance": 0.054,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0142",
+    "description": "Missing metal manhole plate on active traffic lane",
+    "text": "Missing metal manhole plate on active traffic lane",
+    "ground_truth_category": "OPEN_MANHOLE",
+    "ground_truth_department": "Underground Drainage & Safety Department",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.600745,
+    "lng": 77.182681,
+    "latitude": 28.600745,
+    "longitude": 77.182681,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1063,
+      "texture_variance": 0.1049,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0143",
+    "description": "Reported footpath incident on local street",
+    "text": "Reported footpath incident on local street",
+    "ground_truth_category": "FOOTPATH",
+    "ground_truth_department": "Civil Infrastructure & Footpath Division",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.633685,
+    "lng": 77.241183,
+    "latitude": 28.633685,
+    "longitude": 77.241183,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0531,
+      "texture_variance": 0.0876,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0144",
+    "description": "Open manhole chamber missing concrete cover",
+    "text": "Open manhole chamber missing concrete cover",
+    "ground_truth_category": "OPEN_MANHOLE",
+    "ground_truth_department": "Underground Drainage & Safety Department",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.628702,
+    "lng": 77.201357,
+    "latitude": 28.628702,
+    "longitude": 77.201357,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1524,
+      "texture_variance": 0.0603,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0145",
+    "description": "Reported illegal dumping incident on local street",
+    "text": "Reported illegal dumping incident on local street",
+    "ground_truth_category": "ILLEGAL_DUMPING",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.625335,
+    "lng": 77.179798,
+    "latitude": 28.625335,
+    "longitude": 77.179798,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0773,
+      "texture_variance": 0.0729,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0146",
+    "description": "Water supply line cracked near valve",
+    "text": "Water supply line cracked near valve",
+    "ground_truth_category": "WATER_LEAKAGE",
+    "ground_truth_department": "Water Supply & Sewerage Board",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.654765,
+    "lng": 77.208813,
+    "latitude": 28.654765,
+    "longitude": 77.208813,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0448,
+      "texture_variance": 0.0604,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0147",
+    "description": "Multiple road depressions after heavy monsoon rains",
+    "text": "Multiple road depressions after heavy monsoon rains",
+    "ground_truth_category": "POTHOLE",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.612458,
+    "lng": 77.204349,
+    "latitude": 28.612458,
+    "longitude": 77.204349,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1598,
+      "texture_variance": 0.0958,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0148",
+    "description": "Blinking and non-functional light creating dark spot",
+    "text": "Blinking and non-functional light creating dark spot",
+    "ground_truth_category": "STREETLIGHT",
+    "ground_truth_department": "Electrical & Public Lighting Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.599886,
+    "lng": 77.213096,
+    "latitude": 28.599886,
+    "longitude": 77.213096,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1746,
+      "texture_variance": 0.0329,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0149",
+    "description": "Clean water gushing from broken underground connection",
+    "text": "Clean water gushing from broken underground connection",
+    "ground_truth_category": "WATER_LEAKAGE",
+    "ground_truth_department": "Water Supply & Sewerage Board",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.606559,
+    "lng": 77.256545,
+    "latitude": 28.606559,
+    "longitude": 77.256545,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0403,
+      "texture_variance": 0.0521,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0150",
+    "description": "Reported damaged road incident on local street",
+    "text": "Reported damaged road incident on local street",
+    "ground_truth_category": "DAMAGED_ROAD",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.596312,
+    "lng": 77.208566,
+    "latitude": 28.596312,
+    "longitude": 77.208566,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0461,
+      "texture_variance": 0.0444,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0151",
+    "description": "Reported drainage incident on local street",
+    "text": "Reported drainage incident on local street",
+    "ground_truth_category": "DRAINAGE",
+    "ground_truth_department": "Stormwater & Drainage Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.64079,
+    "lng": 77.185903,
+    "latitude": 28.64079,
+    "longitude": 77.185903,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0639,
+      "texture_variance": 0.0471,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0152",
+    "description": "Deep asphalt hole right after the turn",
+    "text": "Deep asphalt hole right after the turn",
+    "ground_truth_category": "POTHOLE",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.645648,
+    "lng": 77.193078,
+    "latitude": 28.645648,
+    "longitude": 77.193078,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1081,
+      "texture_variance": 0.1172,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0153",
+    "description": "Overflowing garbage dumpster blocking sidewalk",
+    "text": "Overflowing garbage dumpster blocking sidewalk",
+    "ground_truth_category": "GARBAGE",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.672382,
+    "lng": 77.235191,
+    "latitude": 28.672382,
+    "longitude": 77.235191,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.073,
+      "texture_variance": 0.0293,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0154",
+    "description": "Clean water gushing from broken underground connection",
+    "text": "Clean water gushing from broken underground connection",
+    "ground_truth_category": "WATER_LEAKAGE",
+    "ground_truth_department": "Water Supply & Sewerage Board",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.648081,
+    "lng": 77.209698,
+    "latitude": 28.648081,
+    "longitude": 77.209698,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1653,
+      "texture_variance": 0.0498,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0155",
+    "description": "Reported drainage incident on local street",
+    "text": "Reported drainage incident on local street",
+    "ground_truth_category": "DRAINAGE",
+    "ground_truth_department": "Stormwater & Drainage Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.59576,
+    "lng": 77.259699,
+    "latitude": 28.59576,
+    "longitude": 77.259699,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0734,
+      "texture_variance": 0.1119,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0156",
+    "description": "Reported footpath incident on local street",
+    "text": "Reported footpath incident on local street",
+    "ground_truth_category": "FOOTPATH",
+    "ground_truth_department": "Civil Infrastructure & Footpath Division",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.595422,
+    "lng": 77.245205,
+    "latitude": 28.595422,
+    "longitude": 77.245205,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1744,
+      "texture_variance": 0.078,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0157",
+    "description": "Reported damaged sign incident on local street",
+    "text": "Reported damaged sign incident on local street",
+    "ground_truth_category": "DAMAGED_SIGN",
+    "ground_truth_department": "Traffic & Road Safety Cell",
+    "ground_truth_severity": "LOW",
+    "ground_truth_priority": "P4",
+    "lat": 28.631,
+    "lng": 77.214562,
+    "latitude": 28.631,
+    "longitude": 77.214562,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0787,
+      "texture_variance": 0.0731,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0158",
+    "description": "Uncovered drainage chamber on footpath",
+    "text": "Uncovered drainage chamber on footpath",
+    "ground_truth_category": "OPEN_MANHOLE",
+    "ground_truth_department": "Underground Drainage & Safety Department",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.666168,
+    "lng": 77.191409,
+    "latitude": 28.666168,
+    "longitude": 77.191409,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0521,
+      "texture_variance": 0.1175,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0159",
+    "description": "Deep asphalt hole right after the turn",
+    "text": "Deep asphalt hole right after the turn",
+    "ground_truth_category": "POTHOLE",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.60009,
+    "lng": 77.224068,
+    "latitude": 28.60009,
+    "longitude": 77.224068,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1453,
+      "texture_variance": 0.0754,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0160",
+    "description": "Drinking water main pipeline burst flooding street",
+    "text": "Drinking water main pipeline burst flooding street",
+    "ground_truth_category": "WATER_LEAKAGE",
+    "ground_truth_department": "Water Supply & Sewerage Board",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.6367,
+    "lng": 77.232134,
+    "latitude": 28.6367,
+    "longitude": 77.232134,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0664,
+      "texture_variance": 0.0419,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0161",
+    "description": "High pressure water pipe rupture wasting potable water",
+    "text": "High pressure water pipe rupture wasting potable water",
+    "ground_truth_category": "WATER_LEAKAGE",
+    "ground_truth_department": "Water Supply & Sewerage Board",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.64109,
+    "lng": 77.252879,
+    "latitude": 28.64109,
+    "longitude": 77.252879,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0515,
+      "texture_variance": 0.0535,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0162",
+    "description": "Reported illegal dumping incident on local street",
+    "text": "Reported illegal dumping incident on local street",
+    "ground_truth_category": "ILLEGAL_DUMPING",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.612936,
+    "lng": 77.238342,
+    "latitude": 28.612936,
+    "longitude": 77.238342,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1565,
+      "texture_variance": 0.0368,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0163",
+    "description": "Streetlight pole completely dark on residential avenue",
+    "text": "Streetlight pole completely dark on residential avenue",
+    "ground_truth_category": "STREETLIGHT",
+    "ground_truth_department": "Electrical & Public Lighting Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.627302,
+    "lng": 77.219526,
+    "latitude": 28.627302,
+    "longitude": 77.219526,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0844,
+      "texture_variance": 0.0494,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0164",
+    "description": "Reported damaged sign incident on local street",
+    "text": "Reported damaged sign incident on local street",
+    "ground_truth_category": "DAMAGED_SIGN",
+    "ground_truth_department": "Traffic & Road Safety Cell",
+    "ground_truth_severity": "LOW",
+    "ground_truth_priority": "P4",
+    "lat": 28.6551,
+    "lng": 77.252592,
+    "latitude": 28.6551,
+    "longitude": 77.252592,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1583,
+      "texture_variance": 0.0582,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0165",
+    "description": "Uncovered drainage chamber on footpath",
+    "text": "Uncovered drainage chamber on footpath",
+    "ground_truth_category": "OPEN_MANHOLE",
+    "ground_truth_department": "Underground Drainage & Safety Department",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.633394,
+    "lng": 77.242881,
+    "latitude": 28.633394,
+    "longitude": 77.242881,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1588,
+      "texture_variance": 0.0375,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0166",
+    "description": "Reported damaged sign incident on local street",
+    "text": "Reported damaged sign incident on local street",
+    "ground_truth_category": "DAMAGED_SIGN",
+    "ground_truth_department": "Traffic & Road Safety Cell",
+    "ground_truth_severity": "LOW",
+    "ground_truth_priority": "P4",
+    "lat": 28.652856,
+    "lng": 77.205684,
+    "latitude": 28.652856,
+    "longitude": 77.205684,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1616,
+      "texture_variance": 0.0218,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0167",
+    "description": "Streetlight pole completely dark on residential avenue",
+    "text": "Streetlight pole completely dark on residential avenue",
+    "ground_truth_category": "STREETLIGHT",
+    "ground_truth_department": "Electrical & Public Lighting Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.651721,
+    "lng": 77.228879,
+    "latitude": 28.651721,
+    "longitude": 77.228879,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0412,
+      "texture_variance": 0.042,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0168",
+    "description": "Reported damaged sign incident on local street",
+    "text": "Reported damaged sign incident on local street",
+    "ground_truth_category": "DAMAGED_SIGN",
+    "ground_truth_department": "Traffic & Road Safety Cell",
+    "ground_truth_severity": "LOW",
+    "ground_truth_priority": "P4",
+    "lat": 28.650132,
+    "lng": 77.209867,
+    "latitude": 28.650132,
+    "longitude": 77.209867,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1767,
+      "texture_variance": 0.0568,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0169",
+    "description": "Missing metal manhole plate on active traffic lane",
+    "text": "Missing metal manhole plate on active traffic lane",
+    "ground_truth_category": "OPEN_MANHOLE",
+    "ground_truth_department": "Underground Drainage & Safety Department",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.667092,
+    "lng": 77.221495,
+    "latitude": 28.667092,
+    "longitude": 77.221495,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1164,
+      "texture_variance": 0.074,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0170",
+    "description": "Reported damaged road incident on local street",
+    "text": "Reported damaged road incident on local street",
+    "ground_truth_category": "DAMAGED_ROAD",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.647075,
+    "lng": 77.20962,
+    "latitude": 28.647075,
+    "longitude": 77.20962,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.055,
+      "texture_variance": 0.0889,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0171",
+    "description": "Dangerous road cavity near pedestrian crossing",
+    "text": "Dangerous road cavity near pedestrian crossing",
+    "ground_truth_category": "POTHOLE",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.662916,
+    "lng": 77.199159,
+    "latitude": 28.662916,
+    "longitude": 77.199159,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0758,
+      "texture_variance": 0.1174,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0172",
+    "description": "Reported damaged sign incident on local street",
+    "text": "Reported damaged sign incident on local street",
+    "ground_truth_category": "DAMAGED_SIGN",
+    "ground_truth_department": "Traffic & Road Safety Cell",
+    "ground_truth_severity": "LOW",
+    "ground_truth_priority": "P4",
+    "lat": 28.615438,
+    "lng": 77.217277,
+    "latitude": 28.615438,
+    "longitude": 77.217277,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1153,
+      "texture_variance": 0.0932,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0173",
+    "description": "Reported damaged road incident on local street",
+    "text": "Reported damaged road incident on local street",
+    "ground_truth_category": "DAMAGED_ROAD",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.610507,
+    "lng": 77.209518,
+    "latitude": 28.610507,
+    "longitude": 77.209518,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0692,
+      "texture_variance": 0.0522,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0174",
+    "description": "Reported illegal dumping incident on local street",
+    "text": "Reported illegal dumping incident on local street",
+    "ground_truth_category": "ILLEGAL_DUMPING",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.656437,
+    "lng": 77.183091,
+    "latitude": 28.656437,
+    "longitude": 77.183091,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1545,
+      "texture_variance": 0.0565,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0175",
+    "description": "Reported damaged road incident on local street",
+    "text": "Reported damaged road incident on local street",
+    "ground_truth_category": "DAMAGED_ROAD",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.662438,
+    "lng": 77.227511,
+    "latitude": 28.662438,
+    "longitude": 77.227511,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0611,
+      "texture_variance": 0.1034,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0176",
+    "description": "Reported damaged sign incident on local street",
+    "text": "Reported damaged sign incident on local street",
+    "ground_truth_category": "DAMAGED_SIGN",
+    "ground_truth_department": "Traffic & Road Safety Cell",
+    "ground_truth_severity": "LOW",
+    "ground_truth_priority": "P4",
+    "lat": 28.605778,
+    "lng": 77.190139,
+    "latitude": 28.605778,
+    "longitude": 77.190139,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1273,
+      "texture_variance": 0.0308,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0177",
+    "description": "Deep asphalt hole right after the turn",
+    "text": "Deep asphalt hole right after the turn",
+    "ground_truth_category": "POTHOLE",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.631149,
+    "lng": 77.231888,
+    "latitude": 28.631149,
+    "longitude": 77.231888,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1416,
+      "texture_variance": 0.0431,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0178",
+    "description": "Rotting food waste and garbage piled up on curb",
+    "text": "Rotting food waste and garbage piled up on curb",
+    "ground_truth_category": "GARBAGE",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.641782,
+    "lng": 77.20105,
+    "latitude": 28.641782,
+    "longitude": 77.20105,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0926,
+      "texture_variance": 0.0321,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0179",
+    "description": "Clean water gushing from broken underground connection",
+    "text": "Clean water gushing from broken underground connection",
+    "ground_truth_category": "WATER_LEAKAGE",
+    "ground_truth_department": "Water Supply & Sewerage Board",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.666191,
+    "lng": 77.228727,
+    "latitude": 28.666191,
+    "longitude": 77.228727,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0999,
+      "texture_variance": 0.0755,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0180",
+    "description": "Reported damaged sign incident on local street",
+    "text": "Reported damaged sign incident on local street",
+    "ground_truth_category": "DAMAGED_SIGN",
+    "ground_truth_department": "Traffic & Road Safety Cell",
+    "ground_truth_severity": "LOW",
+    "ground_truth_priority": "P4",
+    "lat": 28.610905,
+    "lng": 77.242949,
+    "latitude": 28.610905,
+    "longitude": 77.242949,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.158,
+      "texture_variance": 0.1144,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0181",
+    "description": "Streetlight pole completely dark on residential avenue",
+    "text": "Streetlight pole completely dark on residential avenue",
+    "ground_truth_category": "STREETLIGHT",
+    "ground_truth_department": "Electrical & Public Lighting Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.637082,
+    "lng": 77.210078,
+    "latitude": 28.637082,
+    "longitude": 77.210078,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1314,
+      "texture_variance": 0.0857,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0182",
+    "description": "Reported drainage incident on local street",
+    "text": "Reported drainage incident on local street",
+    "ground_truth_category": "DRAINAGE",
+    "ground_truth_department": "Stormwater & Drainage Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.666374,
+    "lng": 77.211776,
+    "latitude": 28.666374,
+    "longitude": 77.211776,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1733,
+      "texture_variance": 0.021,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0183",
+    "description": "Drinking water main pipeline burst flooding street",
+    "text": "Drinking water main pipeline burst flooding street",
+    "ground_truth_category": "WATER_LEAKAGE",
+    "ground_truth_department": "Water Supply & Sewerage Board",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.669243,
+    "lng": 77.181041,
+    "latitude": 28.669243,
+    "longitude": 77.181041,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1008,
+      "texture_variance": 0.1137,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0184",
+    "description": "Reported damaged sign incident on local street",
+    "text": "Reported damaged sign incident on local street",
+    "ground_truth_category": "DAMAGED_SIGN",
+    "ground_truth_department": "Traffic & Road Safety Cell",
+    "ground_truth_severity": "LOW",
+    "ground_truth_priority": "P4",
+    "lat": 28.609629,
+    "lng": 77.244383,
+    "latitude": 28.609629,
+    "longitude": 77.244383,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.17,
+      "texture_variance": 0.1032,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0185",
+    "description": "Drinking water main pipeline burst flooding street",
+    "text": "Drinking water main pipeline burst flooding street",
+    "ground_truth_category": "WATER_LEAKAGE",
+    "ground_truth_department": "Water Supply & Sewerage Board",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.637353,
+    "lng": 77.22688,
+    "latitude": 28.637353,
+    "longitude": 77.22688,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0864,
+      "texture_variance": 0.0389,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0186",
+    "description": "Foul smell from overflowing waste bin near community center",
+    "text": "Foul smell from overflowing waste bin near community center",
+    "ground_truth_category": "GARBAGE",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.640176,
+    "lng": 77.224382,
+    "latitude": 28.640176,
+    "longitude": 77.224382,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0925,
+      "texture_variance": 0.0533,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0187",
+    "description": "Missing metal manhole plate on active traffic lane",
+    "text": "Missing metal manhole plate on active traffic lane",
+    "ground_truth_category": "OPEN_MANHOLE",
+    "ground_truth_department": "Underground Drainage & Safety Department",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.621169,
+    "lng": 77.205055,
+    "latitude": 28.621169,
+    "longitude": 77.205055,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0467,
+      "texture_variance": 0.1183,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0188",
+    "description": "Water supply line cracked near valve",
+    "text": "Water supply line cracked near valve",
+    "ground_truth_category": "WATER_LEAKAGE",
+    "ground_truth_department": "Water Supply & Sewerage Board",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.666057,
+    "lng": 77.247636,
+    "latitude": 28.666057,
+    "longitude": 77.247636,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1796,
+      "texture_variance": 0.0415,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0189",
+    "description": "Uncollected municipal trash heap attracting stray animals",
+    "text": "Uncollected municipal trash heap attracting stray animals",
+    "ground_truth_category": "GARBAGE",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.632036,
+    "lng": 77.193491,
+    "latitude": 28.632036,
+    "longitude": 77.193491,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.092,
+      "texture_variance": 0.0379,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0190",
+    "description": "Reported damaged road incident on local street",
+    "text": "Reported damaged road incident on local street",
+    "ground_truth_category": "DAMAGED_ROAD",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.619203,
+    "lng": 77.245687,
+    "latitude": 28.619203,
+    "longitude": 77.245687,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0466,
+      "texture_variance": 0.0846,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0191",
+    "description": "Massive deep crater on the main road",
+    "text": "Massive deep crater on the main road",
+    "ground_truth_category": "POTHOLE",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.618966,
+    "lng": 77.250267,
+    "latitude": 28.618966,
+    "longitude": 77.250267,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0916,
+      "texture_variance": 0.0417,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0192",
+    "description": "Reported damaged road incident on local street",
+    "text": "Reported damaged road incident on local street",
+    "ground_truth_category": "DAMAGED_ROAD",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.671694,
+    "lng": 77.192622,
+    "latitude": 28.671694,
+    "longitude": 77.192622,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.156,
+      "texture_variance": 0.1054,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0193",
+    "description": "Reported illegal dumping incident on local street",
+    "text": "Reported illegal dumping incident on local street",
+    "ground_truth_category": "ILLEGAL_DUMPING",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.634677,
+    "lng": 77.244086,
+    "latitude": 28.634677,
+    "longitude": 77.244086,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1191,
+      "texture_variance": 0.11,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0194",
+    "description": "Uncollected municipal trash heap attracting stray animals",
+    "text": "Uncollected municipal trash heap attracting stray animals",
+    "ground_truth_category": "GARBAGE",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.644849,
+    "lng": 77.193277,
+    "latitude": 28.644849,
+    "longitude": 77.193277,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0814,
+      "texture_variance": 0.1017,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0195",
+    "description": "Open manhole chamber missing concrete cover",
+    "text": "Open manhole chamber missing concrete cover",
+    "ground_truth_category": "OPEN_MANHOLE",
+    "ground_truth_department": "Underground Drainage & Safety Department",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.638509,
+    "lng": 77.249662,
+    "latitude": 28.638509,
+    "longitude": 77.249662,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1083,
+      "texture_variance": 0.1002,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0196",
+    "description": "Reported damaged road incident on local street",
+    "text": "Reported damaged road incident on local street",
+    "ground_truth_category": "DAMAGED_ROAD",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.604993,
+    "lng": 77.199569,
+    "latitude": 28.604993,
+    "longitude": 77.199569,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1369,
+      "texture_variance": 0.1124,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0197",
+    "description": "Foul smell from overflowing waste bin near community center",
+    "text": "Foul smell from overflowing waste bin near community center",
+    "ground_truth_category": "GARBAGE",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.627618,
+    "lng": 77.215587,
+    "latitude": 28.627618,
+    "longitude": 77.215587,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0541,
+      "texture_variance": 0.0346,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0198",
+    "description": "Streetlight pole completely dark on residential avenue",
+    "text": "Streetlight pole completely dark on residential avenue",
+    "ground_truth_category": "STREETLIGHT",
+    "ground_truth_department": "Electrical & Public Lighting Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.628741,
+    "lng": 77.243184,
+    "latitude": 28.628741,
+    "longitude": 77.243184,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1484,
+      "texture_variance": 0.0691,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0199",
+    "description": "Reported damaged road incident on local street",
+    "text": "Reported damaged road incident on local street",
+    "ground_truth_category": "DAMAGED_ROAD",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.66709,
+    "lng": 77.254856,
+    "latitude": 28.66709,
+    "longitude": 77.254856,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1131,
+      "texture_variance": 0.0253,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0200",
+    "description": "Blinking and non-functional light creating dark spot",
+    "text": "Blinking and non-functional light creating dark spot",
+    "ground_truth_category": "STREETLIGHT",
+    "ground_truth_department": "Electrical & Public Lighting Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.621772,
+    "lng": 77.211713,
+    "latitude": 28.621772,
+    "longitude": 77.211713,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0986,
+      "texture_variance": 0.0689,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0201",
+    "description": "Reported footpath incident on local street",
+    "text": "Reported footpath incident on local street",
+    "ground_truth_category": "FOOTPATH",
+    "ground_truth_department": "Civil Infrastructure & Footpath Division",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.632449,
+    "lng": 77.221367,
+    "latitude": 28.632449,
+    "longitude": 77.221367,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1107,
+      "texture_variance": 0.066,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0202",
+    "description": "Open manhole chamber missing concrete cover",
+    "text": "Open manhole chamber missing concrete cover",
+    "ground_truth_category": "OPEN_MANHOLE",
+    "ground_truth_department": "Underground Drainage & Safety Department",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.620276,
+    "lng": 77.21679,
+    "latitude": 28.620276,
+    "longitude": 77.21679,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1348,
+      "texture_variance": 0.1106,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0203",
+    "description": "Uncollected municipal trash heap attracting stray animals",
+    "text": "Uncollected municipal trash heap attracting stray animals",
+    "ground_truth_category": "GARBAGE",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.601619,
+    "lng": 77.207088,
+    "latitude": 28.601619,
+    "longitude": 77.207088,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1472,
+      "texture_variance": 0.0381,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0204",
+    "description": "Reported illegal dumping incident on local street",
+    "text": "Reported illegal dumping incident on local street",
+    "ground_truth_category": "ILLEGAL_DUMPING",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.601629,
+    "lng": 77.246751,
+    "latitude": 28.601629,
+    "longitude": 77.246751,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0536,
+      "texture_variance": 0.0323,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0205",
+    "description": "Drinking water main pipeline burst flooding street",
+    "text": "Drinking water main pipeline burst flooding street",
+    "ground_truth_category": "WATER_LEAKAGE",
+    "ground_truth_department": "Water Supply & Sewerage Board",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.663804,
+    "lng": 77.227068,
+    "latitude": 28.663804,
+    "longitude": 77.227068,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1669,
+      "texture_variance": 0.112,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0206",
+    "description": "Reported footpath incident on local street",
+    "text": "Reported footpath incident on local street",
+    "ground_truth_category": "FOOTPATH",
+    "ground_truth_department": "Civil Infrastructure & Footpath Division",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.621221,
+    "lng": 77.185166,
+    "latitude": 28.621221,
+    "longitude": 77.185166,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1409,
+      "texture_variance": 0.0816,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0207",
+    "description": "Reported footpath incident on local street",
+    "text": "Reported footpath incident on local street",
+    "ground_truth_category": "FOOTPATH",
+    "ground_truth_department": "Civil Infrastructure & Footpath Division",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.634256,
+    "lng": 77.230493,
+    "latitude": 28.634256,
+    "longitude": 77.230493,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1754,
+      "texture_variance": 0.1,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0208",
+    "description": "Reported damaged road incident on local street",
+    "text": "Reported damaged road incident on local street",
+    "ground_truth_category": "DAMAGED_ROAD",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.615531,
+    "lng": 77.2363,
+    "latitude": 28.615531,
+    "longitude": 77.2363,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1257,
+      "texture_variance": 0.0957,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0209",
+    "description": "Reported damaged sign incident on local street",
+    "text": "Reported damaged sign incident on local street",
+    "ground_truth_category": "DAMAGED_SIGN",
+    "ground_truth_department": "Traffic & Road Safety Cell",
+    "ground_truth_severity": "LOW",
+    "ground_truth_priority": "P4",
+    "lat": 28.65923,
+    "lng": 77.253646,
+    "latitude": 28.65923,
+    "longitude": 77.253646,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0693,
+      "texture_variance": 0.1173,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0210",
+    "description": "Reported damaged road incident on local street",
+    "text": "Reported damaged road incident on local street",
+    "ground_truth_category": "DAMAGED_ROAD",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.604472,
+    "lng": 77.186508,
+    "latitude": 28.604472,
+    "longitude": 77.186508,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.128,
+      "texture_variance": 0.0376,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0211",
+    "description": "Reported footpath incident on local street",
+    "text": "Reported footpath incident on local street",
+    "ground_truth_category": "FOOTPATH",
+    "ground_truth_department": "Civil Infrastructure & Footpath Division",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.649305,
+    "lng": 77.183067,
+    "latitude": 28.649305,
+    "longitude": 77.183067,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1392,
+      "texture_variance": 0.0784,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0212",
+    "description": "Reported illegal dumping incident on local street",
+    "text": "Reported illegal dumping incident on local street",
+    "ground_truth_category": "ILLEGAL_DUMPING",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.648276,
+    "lng": 77.222512,
+    "latitude": 28.648276,
+    "longitude": 77.222512,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0552,
+      "texture_variance": 0.0553,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0213",
+    "description": "High pressure water pipe rupture wasting potable water",
+    "text": "High pressure water pipe rupture wasting potable water",
+    "ground_truth_category": "WATER_LEAKAGE",
+    "ground_truth_department": "Water Supply & Sewerage Board",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.647785,
+    "lng": 77.20633,
+    "latitude": 28.647785,
+    "longitude": 77.20633,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.08,
+      "texture_variance": 0.1156,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0214",
+    "description": "Dangerous open sewer pit right in front of school",
+    "text": "Dangerous open sewer pit right in front of school",
+    "ground_truth_category": "OPEN_MANHOLE",
+    "ground_truth_department": "Underground Drainage & Safety Department",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.612487,
+    "lng": 77.194388,
+    "latitude": 28.612487,
+    "longitude": 77.194388,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1715,
+      "texture_variance": 0.0777,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0215",
+    "description": "Dangerous open sewer pit right in front of school",
+    "text": "Dangerous open sewer pit right in front of school",
+    "ground_truth_category": "OPEN_MANHOLE",
+    "ground_truth_department": "Underground Drainage & Safety Department",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.616175,
+    "lng": 77.238437,
+    "latitude": 28.616175,
+    "longitude": 77.238437,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0423,
+      "texture_variance": 0.0287,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0216",
+    "description": "Open manhole chamber missing concrete cover",
+    "text": "Open manhole chamber missing concrete cover",
+    "ground_truth_category": "OPEN_MANHOLE",
+    "ground_truth_department": "Underground Drainage & Safety Department",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.609799,
+    "lng": 77.189097,
+    "latitude": 28.609799,
+    "longitude": 77.189097,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0727,
+      "texture_variance": 0.0703,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0217",
+    "description": "Reported illegal dumping incident on local street",
+    "text": "Reported illegal dumping incident on local street",
+    "ground_truth_category": "ILLEGAL_DUMPING",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.631404,
+    "lng": 77.25227,
+    "latitude": 28.631404,
+    "longitude": 77.25227,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0576,
+      "texture_variance": 0.1168,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0218",
+    "description": "Reported damaged road incident on local street",
+    "text": "Reported damaged road incident on local street",
+    "ground_truth_category": "DAMAGED_ROAD",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.619639,
+    "lng": 77.184539,
+    "latitude": 28.619639,
+    "longitude": 77.184539,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0851,
+      "texture_variance": 0.0825,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0219",
+    "description": "Reported illegal dumping incident on local street",
+    "text": "Reported illegal dumping incident on local street",
+    "ground_truth_category": "ILLEGAL_DUMPING",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.605124,
+    "lng": 77.221435,
+    "latitude": 28.605124,
+    "longitude": 77.221435,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0683,
+      "texture_variance": 0.0583,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0220",
+    "description": "Reported damaged sign incident on local street",
+    "text": "Reported damaged sign incident on local street",
+    "ground_truth_category": "DAMAGED_SIGN",
+    "ground_truth_department": "Traffic & Road Safety Cell",
+    "ground_truth_severity": "LOW",
+    "ground_truth_priority": "P4",
+    "lat": 28.664662,
+    "lng": 77.255296,
+    "latitude": 28.664662,
+    "longitude": 77.255296,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0734,
+      "texture_variance": 0.0818,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0221",
+    "description": "Reported damaged road incident on local street",
+    "text": "Reported damaged road incident on local street",
+    "ground_truth_category": "DAMAGED_ROAD",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.593021,
+    "lng": 77.243857,
+    "latitude": 28.593021,
+    "longitude": 77.243857,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1509,
+      "texture_variance": 0.0867,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0222",
+    "description": "Reported footpath incident on local street",
+    "text": "Reported footpath incident on local street",
+    "ground_truth_category": "FOOTPATH",
+    "ground_truth_department": "Civil Infrastructure & Footpath Division",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.63335,
+    "lng": 77.19038,
+    "latitude": 28.63335,
+    "longitude": 77.19038,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1605,
+      "texture_variance": 0.081,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0223",
+    "description": "Reported footpath incident on local street",
+    "text": "Reported footpath incident on local street",
+    "ground_truth_category": "FOOTPATH",
+    "ground_truth_department": "Civil Infrastructure & Footpath Division",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.626514,
+    "lng": 77.221354,
+    "latitude": 28.626514,
+    "longitude": 77.221354,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1768,
+      "texture_variance": 0.0706,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0224",
+    "description": "Dangerous road cavity near pedestrian crossing",
+    "text": "Dangerous road cavity near pedestrian crossing",
+    "ground_truth_category": "POTHOLE",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.639565,
+    "lng": 77.211028,
+    "latitude": 28.639565,
+    "longitude": 77.211028,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1777,
+      "texture_variance": 0.0333,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0225",
+    "description": "Reported damaged road incident on local street",
+    "text": "Reported damaged road incident on local street",
+    "ground_truth_category": "DAMAGED_ROAD",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.667878,
+    "lng": 77.205009,
+    "latitude": 28.667878,
+    "longitude": 77.205009,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0725,
+      "texture_variance": 0.0253,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0226",
+    "description": "Open manhole chamber missing concrete cover",
+    "text": "Open manhole chamber missing concrete cover",
+    "ground_truth_category": "OPEN_MANHOLE",
+    "ground_truth_department": "Underground Drainage & Safety Department",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.646338,
+    "lng": 77.186159,
+    "latitude": 28.646338,
+    "longitude": 77.186159,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0787,
+      "texture_variance": 0.0605,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0227",
+    "description": "Drinking water main pipeline burst flooding street",
+    "text": "Drinking water main pipeline burst flooding street",
+    "ground_truth_category": "WATER_LEAKAGE",
+    "ground_truth_department": "Water Supply & Sewerage Board",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.640599,
+    "lng": 77.206612,
+    "latitude": 28.640599,
+    "longitude": 77.206612,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.132,
+      "texture_variance": 0.0248,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0228",
+    "description": "Reported damaged sign incident on local street",
+    "text": "Reported damaged sign incident on local street",
+    "ground_truth_category": "DAMAGED_SIGN",
+    "ground_truth_department": "Traffic & Road Safety Cell",
+    "ground_truth_severity": "LOW",
+    "ground_truth_priority": "P4",
+    "lat": 28.647872,
+    "lng": 77.220016,
+    "latitude": 28.647872,
+    "longitude": 77.220016,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1336,
+      "texture_variance": 0.0691,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0229",
+    "description": "Broken lamp post with exposed casing",
+    "text": "Broken lamp post with exposed casing",
+    "ground_truth_category": "STREETLIGHT",
+    "ground_truth_department": "Electrical & Public Lighting Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.663179,
+    "lng": 77.254814,
+    "latitude": 28.663179,
+    "longitude": 77.254814,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.1295,
+      "texture_variance": 0.0428,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0230",
+    "description": "Reported drainage incident on local street",
+    "text": "Reported drainage incident on local street",
+    "ground_truth_category": "DRAINAGE",
+    "ground_truth_department": "Stormwater & Drainage Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.653115,
+    "lng": 77.205204,
+    "latitude": 28.653115,
+    "longitude": 77.205204,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0487,
+      "texture_variance": 0.0992,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0231",
+    "description": "Reported illegal dumping incident on local street",
+    "text": "Reported illegal dumping incident on local street",
+    "ground_truth_category": "ILLEGAL_DUMPING",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.65523,
+    "lng": 77.256406,
+    "latitude": 28.65523,
+    "longitude": 77.256406,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0973,
+      "texture_variance": 0.0629,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0232",
+    "description": "Foul smell from overflowing waste bin near community center",
+    "text": "Foul smell from overflowing waste bin near community center",
+    "ground_truth_category": "GARBAGE",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.645194,
+    "lng": 77.230961,
+    "latitude": 28.645194,
+    "longitude": 77.230961,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0408,
+      "texture_variance": 0.0901,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0233",
+    "description": "Reported drainage incident on local street",
+    "text": "Reported drainage incident on local street",
+    "ground_truth_category": "DRAINAGE",
+    "ground_truth_department": "Stormwater & Drainage Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.664162,
+    "lng": 77.229615,
+    "latitude": 28.664162,
+    "longitude": 77.229615,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.071,
+      "texture_variance": 0.0641,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0234",
+    "description": "Uncollected municipal trash heap attracting stray animals",
+    "text": "Uncollected municipal trash heap attracting stray animals",
+    "ground_truth_category": "GARBAGE",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.609676,
+    "lng": 77.236057,
+    "latitude": 28.609676,
+    "longitude": 77.236057,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1533,
+      "texture_variance": 0.0691,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0235",
+    "description": "Reported illegal dumping incident on local street",
+    "text": "Reported illegal dumping incident on local street",
+    "ground_truth_category": "ILLEGAL_DUMPING",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.66124,
+    "lng": 77.252493,
+    "latitude": 28.66124,
+    "longitude": 77.252493,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0784,
+      "texture_variance": 0.0575,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0236",
+    "description": "Streetlight pole completely dark on residential avenue",
+    "text": "Streetlight pole completely dark on residential avenue",
+    "ground_truth_category": "STREETLIGHT",
+    "ground_truth_department": "Electrical & Public Lighting Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.596975,
+    "lng": 77.2062,
+    "latitude": 28.596975,
+    "longitude": 77.2062,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1535,
+      "texture_variance": 0.0468,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0237",
+    "description": "Reported damaged road incident on local street",
+    "text": "Reported damaged road incident on local street",
+    "ground_truth_category": "DAMAGED_ROAD",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.653757,
+    "lng": 77.188194,
+    "latitude": 28.653757,
+    "longitude": 77.188194,
+    "is_major_road": false,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0411,
+      "texture_variance": 0.1045,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0238",
+    "description": "Reported damaged road incident on local street",
+    "text": "Reported damaged road incident on local street",
+    "ground_truth_category": "DAMAGED_ROAD",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.665225,
+    "lng": 77.181432,
+    "latitude": 28.665225,
+    "longitude": 77.181432,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1144,
+      "texture_variance": 0.0206,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0239",
+    "description": "Reported drainage incident on local street",
+    "text": "Reported drainage incident on local street",
+    "ground_truth_category": "DRAINAGE",
+    "ground_truth_department": "Stormwater & Drainage Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.647527,
+    "lng": 77.246924,
+    "latitude": 28.647527,
+    "longitude": 77.246924,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1232,
+      "texture_variance": 0.116,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0240",
+    "description": "Uncollected municipal trash heap attracting stray animals",
+    "text": "Uncollected municipal trash heap attracting stray animals",
+    "ground_truth_category": "GARBAGE",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.636144,
+    "lng": 77.23714,
+    "latitude": 28.636144,
+    "longitude": 77.23714,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0701,
+      "texture_variance": 0.0338,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0241",
+    "description": "Damaged street lamp fixture after storm",
+    "text": "Damaged street lamp fixture after storm",
+    "ground_truth_category": "STREETLIGHT",
+    "ground_truth_department": "Electrical & Public Lighting Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.62907,
+    "lng": 77.204104,
+    "latitude": 28.62907,
+    "longitude": 77.204104,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.096,
+      "texture_variance": 0.1091,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0242",
+    "description": "Multiple road depressions after heavy monsoon rains",
+    "text": "Multiple road depressions after heavy monsoon rains",
+    "ground_truth_category": "POTHOLE",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.66537,
+    "lng": 77.253177,
+    "latitude": 28.66537,
+    "longitude": 77.253177,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0913,
+      "texture_variance": 0.0542,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0243",
+    "description": "Deep asphalt hole right after the turn",
+    "text": "Deep asphalt hole right after the turn",
+    "ground_truth_category": "POTHOLE",
+    "ground_truth_department": "Municipal Roads Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.608503,
+    "lng": 77.22244,
+    "latitude": 28.608503,
+    "longitude": 77.22244,
+    "is_major_road": false,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1385,
+      "texture_variance": 0.0974,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0244",
+    "description": "High pressure water pipe rupture wasting potable water",
+    "text": "High pressure water pipe rupture wasting potable water",
+    "ground_truth_category": "WATER_LEAKAGE",
+    "ground_truth_department": "Water Supply & Sewerage Board",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.603137,
+    "lng": 77.234312,
+    "latitude": 28.603137,
+    "longitude": 77.234312,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0404,
+      "texture_variance": 0.0973,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0245",
+    "description": "Reported damaged sign incident on local street",
+    "text": "Reported damaged sign incident on local street",
+    "ground_truth_category": "DAMAGED_SIGN",
+    "ground_truth_department": "Traffic & Road Safety Cell",
+    "ground_truth_severity": "LOW",
+    "ground_truth_priority": "P4",
+    "lat": 28.652588,
+    "lng": 77.227593,
+    "latitude": 28.652588,
+    "longitude": 77.227593,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.0768,
+      "texture_variance": 0.0915,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0246",
+    "description": "Streetlight pole completely dark on residential avenue",
+    "text": "Streetlight pole completely dark on residential avenue",
+    "ground_truth_category": "STREETLIGHT",
+    "ground_truth_department": "Electrical & Public Lighting Department",
+    "ground_truth_severity": "MEDIUM",
+    "ground_truth_priority": "P3",
+    "lat": 28.626552,
+    "lng": 77.24141,
+    "latitude": 28.626552,
+    "longitude": 77.24141,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1065,
+      "texture_variance": 0.1188,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0247",
+    "description": "Continuous water supply pipe leakage under tarmac",
+    "text": "Continuous water supply pipe leakage under tarmac",
+    "ground_truth_category": "WATER_LEAKAGE",
+    "ground_truth_department": "Water Supply & Sewerage Board",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.642506,
+    "lng": 77.244443,
+    "latitude": 28.642506,
+    "longitude": 77.244443,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.118,
+      "texture_variance": 0.11,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0248",
+    "description": "Missing metal manhole plate on active traffic lane",
+    "text": "Missing metal manhole plate on active traffic lane",
+    "ground_truth_category": "OPEN_MANHOLE",
+    "ground_truth_department": "Underground Drainage & Safety Department",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.597658,
+    "lng": 77.200188,
+    "latitude": 28.597658,
+    "longitude": 77.200188,
+    "is_major_road": true,
+    "citizen_urgent_flag": true,
+    "simulated_visual_features": {
+      "edge_density": 0.0713,
+      "texture_variance": 0.0321,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0249",
+    "description": "Uncollected municipal trash heap attracting stray animals",
+    "text": "Uncollected municipal trash heap attracting stray animals",
+    "ground_truth_category": "GARBAGE",
+    "ground_truth_department": "Solid Waste & Sanitation Department",
+    "ground_truth_severity": "HIGH",
+    "ground_truth_priority": "P2",
+    "lat": 28.604702,
+    "lng": 77.249623,
+    "latitude": 28.604702,
+    "longitude": 77.249623,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1305,
+      "texture_variance": 0.0949,
+      "valid": true
+    }
+  },
+  {
+    "sample_id": "BENCH-0250",
+    "description": "Dangerous open sewer pit right in front of school",
+    "text": "Dangerous open sewer pit right in front of school",
+    "ground_truth_category": "OPEN_MANHOLE",
+    "ground_truth_department": "Underground Drainage & Safety Department",
+    "ground_truth_severity": "CRITICAL",
+    "ground_truth_priority": "P1",
+    "lat": 28.607796,
+    "lng": 77.216601,
+    "latitude": 28.607796,
+    "longitude": 77.216601,
+    "is_major_road": true,
+    "citizen_urgent_flag": false,
+    "simulated_visual_features": {
+      "edge_density": 0.1241,
+      "texture_variance": 0.0501,
+      "valid": true
+    }
+  }
+]

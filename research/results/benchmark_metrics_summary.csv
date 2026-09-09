@@ -1,0 +1,23 @@
+Experiment,Model / Configuration,Metric,Value,Unit
+Exp A: Classification,Text-Only Keyword Baseline,Accuracy,70.80,%
+Exp A: Classification,Text-Only Keyword Baseline,Macro-F1,0.6954,Score
+Exp A: Classification,CivicLens Multimodal Pipeline,Accuracy,70.80,%
+Exp A: Classification,CivicLens Multimodal Pipeline,Macro-F1,0.6954,Score
+Exp A: Classification,CivicLens Multimodal Pipeline,Mean Latency,0.38,ms
+Exp B: Duplicate Detection,Geo-Distance Only (<50m),Precision,100.00,%
+Exp B: Duplicate Detection,Geo-Distance Only (<50m),Recall,100.00,%
+Exp B: Duplicate Detection,Geo-Distance Only (<50m),F1-Score,1.0000,Score
+Exp B: Duplicate Detection,CivicLens Spatio-Temporal,Precision,100.00,%
+Exp B: Duplicate Detection,CivicLens Spatio-Temporal,Recall,100.00,%
+Exp B: Duplicate Detection,CivicLens Spatio-Temporal,F1-Score,1.0000,Score
+Exp C: Severity Estimation,Multimodal Severity Model,Exact Accuracy,56.00,%
+Exp C: Severity Estimation,Multimodal Severity Model,Tolerance +/- 1 Level,90.40,%
+Exp C: Severity Estimation,Multimodal Severity Model,Mean Absolute Error,0.536,MAE
+Exp C: Severity Estimation,Multimodal Severity Model,Root Mean Squared Error,0.853,RMSE
+Exp D: Priority Engine,Explainable Priority Rules,Explainability Coverage,100.0,%
+Exp E: Incident Clustering,Naive Grid Partitioning,Compression Ratio,34.40,%
+Exp E: Incident Clustering,Naive Grid Partitioning,Category Purity,81.85,%
+Exp E: Incident Clustering,CivicLens Spatio-Temporal,Compression Ratio,1.20,%
+Exp E: Incident Clustering,CivicLens Spatio-Temporal,Category Purity,100.00,%
+Exp F: Civic Impact Score,Multi-Factor Scorer,Mean Score,30.31,pts
+Exp F: Civic Impact Score,Multi-Factor Scorer,Median Score,29.20,pts
