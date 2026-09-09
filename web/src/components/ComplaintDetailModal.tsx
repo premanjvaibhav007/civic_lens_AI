@@ -17,7 +17,7 @@ import {
   ArrowRight
 } from "lucide-react";
 import { ComplaintDetail, UserSummary, Department } from "../types";
-import { api } from "../api";
+import { api, getMediaUrl } from "../api";
 
 interface ComplaintDetailModalProps {
   complaint: ComplaintDetail | null;
@@ -297,7 +297,7 @@ export const ComplaintDetailModal: React.FC<ComplaintDetailModalProps> = ({
                 <div className="bg-slate-100 rounded-xl overflow-hidden border border-slate-200 aspect-video flex items-center justify-center relative">
                   {primaryImage ? (
                     <img
-                      src={`http://localhost:8000${primaryImage.image_url}`}
+                      src={getMediaUrl(primaryImage.image_url)}
                       alt="Complaint Evidence"
                       className="w-full h-full object-cover"
                       onError={(e) => {
@@ -520,7 +520,7 @@ export const ComplaintDetailModal: React.FC<ComplaintDetailModalProps> = ({
                       <div className="aspect-video bg-slate-100 rounded-xl overflow-hidden border border-slate-200">
                         {complaint.images && complaint.images.length > 0 ? (
                           <img
-                            src={`http://localhost:8000${complaint.images[0].image_url}`}
+                            src={getMediaUrl(complaint.images[0].image_url)}
                             alt="Before"
                             className="w-full h-full object-cover"
                           />
@@ -538,7 +538,7 @@ export const ComplaintDetailModal: React.FC<ComplaintDetailModalProps> = ({
                       </span>
                       <div className="aspect-video bg-slate-100 rounded-xl overflow-hidden border border-emerald-300 ring-2 ring-emerald-500/20">
                         <img
-                          src={`http://localhost:8000${complaint.resolution_evidence.evidence_image_url}`}
+                          src={getMediaUrl(complaint.resolution_evidence.evidence_image_url)}
                           alt="After Repair Evidence"
                           className="w-full h-full object-cover"
                         />

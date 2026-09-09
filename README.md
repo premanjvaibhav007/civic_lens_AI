@@ -168,7 +168,18 @@ This repository includes a production-ready `render.yaml` blueprint:
    - **FastAPI Backend** web service (Python 3.11) with health checks
    - **React/Vite Frontend** static site with automatic API reverse proxying
 
-### 5. Run with Docker Compose
+### 5. Deploy Frontend on Vercel (Recommended for Global CDN)
+You can deploy the Citizen & Authority Web Portal to **Vercel** in 2 minutes:
+1. Go to [Vercel Dashboard](https://vercel.com/new) -> **Add New Project**.
+2. Import your GitHub repository (`civic_lens_AI`).
+3. Set **Root Directory** to `web` (or leave default root; both are supported via `vercel.json`).
+4. In **Environment Variables**, add:
+   - `VITE_BACKEND_URL`: Your deployed FastAPI backend URL (e.g. `https://civiclens-ai-backend.onrender.com`).
+5. Click **Deploy**!
+   - Vercel will build the frontend with Vite and provide a production domain with instant global edge caching and free SSL.
+   - The FastAPI backend includes built-in CORS regex support for all `*.vercel.app` preview and production domains.
+
+### 6. Run with Docker Compose
 ```bash
 cd infrastructure
 docker-compose up --build -d

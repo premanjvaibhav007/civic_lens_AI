@@ -1,6 +1,21 @@
 import axios from "axios";
 
-const API_BASE_URL = "http://localhost:8000/api/v1";
+export const BACKEND_BASE_URL =
+  import.meta.env.VITE_BACKEND_URL ??
+  (import.meta.env.DEV ? "http://localhost:8000" : "");
+
+export const API_BASE_URL =
+  import.meta.env.VITE_API_BASE_URL ||
+  (BACKEND_BASE_URL ? `${BACKEND_BASE_URL}/api/v1` : "/api/v1");
+
+export function getMediaUrl(urlPath?: string | null): string {
+  if (!urlPath) return "";
+  if (urlPath.startsWith("http://") || urlPath.startsWith("https://")) {
+    return urlPath;
+  }
+  const cleanPath = urlPath.startsWith("/") ? urlPath : `/${urlPath}`;
+  return BACKEND_BASE_URL ? `${BACKEND_BASE_URL}${cleanPath}` : cleanPath;
+}
 
 export const api = axios.create({
   baseURL: API_BASE_URL,
