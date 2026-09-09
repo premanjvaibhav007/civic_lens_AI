@@ -82,12 +82,48 @@ CivicLens AI is a production-ready, open-source, AI-powered civic grievance and 
 
 ---
 
+## 👥 Dual Portal Experience: Citizens & Municipal Authorities
+
+CivicLens AI v2.0 provides an end-to-end civic accountability loop accessible directly from any web browser or mobile device:
+
+### 1. 🏙️ Citizen Portal (`http://localhost:5173`)
+- **Direct Web Complaint Filing**: Click `+ File Complaint` in the navigation header to report potholes, water leakages, garbage overflows, broken streetlights, or sanitation issues.
+- **Auto-GPS Geolocation**: Detects exact latitude/longitude automatically via browser GPS or allows manual pin adjustment.
+- **Multimodal Photo Upload**: Upload high-resolution scene photos with automatic preview and validation.
+- **Transparent Live Authority Progress Tracking**:
+  - 🟠 **Awaiting Dispatch**: Complaint logged and queued for departmental allocation.
+  - 🟣 **AI Routed**: Multimodal classification assigned category, department, severity, and priority.
+  - 🔵 **Authorities Working On-Site**: Field crew actively dispatched and repairing the infrastructure issue on-site.
+  - 🟣 **Repaired - Review Proof**: Maintenance crew has uploaded official before/after resolution photos.
+  - 🟢 **Verified Resolved**: Inspection passed, SLA fulfilled, and audit trail permanently recorded.
+- **Personal Complaint Tracker**: Switch between **"My Filed Complaints"** and **"All Neighborhood Complaints"** in one click.
+
+### 2. 🛡️ Authority Operations Dashboard
+- **Live Triaging & Priority Queue**: View complaints ordered by explainable priority ($P_1$–$P_4$) with active SLA countdown clocks.
+- **Geographic Heatmap**: Interactive Leaflet map with departmental clusters and incident zones.
+- **One-Click Officer Dispatch**: Move issues from queued to `IN_PROGRESS` with assigned municipal personnel.
+- **Resolution Proof Upload**: Upload after-repair photographic evidence to verify physical resolution before closure.
+- **AI Copilot & Incident Command**: Ask natural-language operational questions and declare emergency weather/traffic alerts.
+
+---
+
+## 🔑 Demo Access Credentials
+
+| Role | Email | Password | Pre-configured Access |
+| :--- | :--- | :--- | :--- |
+| **Citizen** | `citizen@civiclens.gov` | `Citizen@123456` | File grievances, track status live, view neighborhood feed |
+| **Authority Admin** | `admin@civiclens.gov` | `Admin@123456` | Full departmental triage, officer dispatch, SLA tracking, analytics |
+
+*(Click the quick **"Demo Citizen"** or **"Demo Authority"** preset buttons directly on the login modal for 1-click login!)*
+
+---
+
 ## 🚀 Quick Start Guide
 
 ### Prerequisites
 - Python 3.11+
 - Node.js 18+ / npm
-- Android Studio Ladybug / Koala (for Android compilation)
+- Android Studio Ladybug / Koala (for optional Android compilation)
 - Docker & Docker Compose (optional for production containerization)
 
 ### 1. Run Backend & Initialize Database
@@ -105,25 +141,34 @@ uvicorn backend.app.main:app --reload --port 8000
 - Swagger API Docs: `http://localhost:8000/docs`
 - Health Endpoint: `http://localhost:8000/health`
 
-### 2. Run Authority Web Dashboard
+### 2. Run Web Portal (Citizen & Authority)
 ```bash
 cd web
 npm install
 npm run dev
 ```
 - Web Portal: `http://localhost:5173`
-- Demo Admin Credentials: `admin@civiclens.gov` / `Admin@123456`
 
 ### 3. Run Automated Tests & Experiments
 ```bash
-# Run Backend Test Suite
+# Run Backend Test Suite (18 unit & integration tests)
 pytest -v
 
 # Run Full Research Experiment Benchmark Suite
 python research/run_experiments.py
 ```
 
-### 4. Run with Docker Compose
+### 4. 1-Click Cloud Deployment (Render Blueprint)
+This repository includes a production-ready `render.yaml` blueprint:
+1. Fork or push this repository to GitHub.
+2. Go to [Render Dashboard](https://dashboard.render.com/) -> **New** -> **Blueprint**.
+3. Connect your repository (`civic_lens_AI`).
+4. Render will automatically spin up:
+   - **PostgreSQL 16** managed database
+   - **FastAPI Backend** web service (Python 3.11) with health checks
+   - **React/Vite Frontend** static site with automatic API reverse proxying
+
+### 5. Run with Docker Compose
 ```bash
 cd infrastructure
 docker-compose up --build -d
