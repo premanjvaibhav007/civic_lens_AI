@@ -1,15 +1,34 @@
 # CivicLens AI: AI-Powered Municipal Infrastructure Redressal Platform
 
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.111.0-009688.svg?logo=fastapi)](https://fastapi.tiangolo.com)
-[![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12-3776AB.svg?logo=python)](https://python.org)
-[![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2.3-6DB33F.svg?logo=springboot)](https://spring.io)
-[![Java](https://img.shields.io/badge/Java-17%20%7C%2021%20%7C%2023-ED8B00.svg?logo=openjdk)](https://openjdk.org)
-[![React](https://img.shields.io/badge/React-18-61DAFB.svg?logo=react)](https://reactjs.org)
-[![Vite](https://img.shields.io/badge/Vite-5.0-646CFF.svg?logo=vite)](https://vitejs.dev)
-[![Android](https://img.shields.io/badge/Android-Java%20%7C%20Kotlin-3DDC84.svg?logo=android)](https://developer.android.com)
-[![Tests: Pytest](https://img.shields.io/badge/Tests-18%20Passing-brightgreen.svg)](https://pytest.org)
+[![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12-3776AB.svg?logo=python&logoColor=white)](https://python.org)
+[![Java](https://img.shields.io/badge/Java-17%20%7C%2021%20%7C%2023-ED8B00.svg?logo=openjdk&logoColor=white)](https://openjdk.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6.svg?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![Kotlin](https://img.shields.io/badge/Kotlin-1.9-7F52FF.svg?logo=kotlin&logoColor=white)](https://kotlinlang.org)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E.svg?logo=javascript&logoColor=black)](https://developer.mozilla.org)
+[![SQL](https://img.shields.io/badge/SQL-PostgreSQL%20%7C%20SQLite-4169E1.svg?logo=postgresql&logoColor=white)](https://www.postgresql.org)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.111.0-009688.svg?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2.3-6DB33F.svg?logo=springboot&logoColor=white)](https://spring.io)
+[![React](https://img.shields.io/badge/React-18-61DAFB.svg?logo=react&logoColor=black)](https://reactjs.org)
+[![Vite](https://img.shields.io/badge/Vite-5.0-646CFF.svg?logo=vite&logoColor=white)](https://vitejs.dev)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC.svg?logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
+[![Tests: Pytest](https://img.shields.io/badge/Tests-18%20Passing-brightgreen.svg?logo=pytest&logoColor=white)](https://pytest.org)
 
-CivicLens AI is a production-ready, open-source, AI-powered civic grievance and infrastructure resolution platform. It bridges the gap between citizens, municipal field maintenance crews, and departmental administrators through automated multimodal defect triage, spatio-temporal duplicate detection, transparent SLA countdowns, and dual backend implementations in **Python (FastAPI)** and **Java (Spring Boot)** with a modern **React** web portal and **Java/Kotlin** Android mobile apps.
+CivicLens AI is a production-ready, open-source, AI-powered civic grievance and infrastructure resolution platform. It bridges the gap between citizens, municipal field maintenance crews, and departmental administrators through automated multimodal defect triage, spatio-temporal duplicate detection, transparent SLA countdowns, and dual backend implementations in **Python (FastAPI)** and **Java (Spring Boot)** with a modern **TypeScript/JavaScript React** web portal and **Kotlin/Java** Android mobile apps.
+
+---
+
+## 💻 Languages & Technologies Used
+
+| Language / Tech | Primary Ecosystem & Usage | Key Frameworks & Libraries |
+| :--- | :--- | :--- |
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) **Python** | Primary Backend Gateway, AI/ML Triage Engine, Research Benchmark Suite | FastAPI, Async SQLAlchemy 2.0, Pydantic v2, Pytest, NumPy, Scikit-learn, Uvicorn |
+| ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) **Java** | Enterprise Microservice Backend & Android Client Interop | Spring Boot 3.2, Spring Data JPA, Spring Security, Maven, H2 Database |
+| ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) **TypeScript** | Type-safe Citizen & Authority Web Portal Frontend | React 18, Vite 5, Tailwind CSS, Lucide React, Leaflet Maps |
+| ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white) **Kotlin** | Native Citizen Android Application | Jetpack Compose, Material 3, Room DB (Offline-First), WorkManager, Coroutines |
+| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) **JavaScript** | Web tooling, Build configuration, Dynamic runtime scripts | Vite, PostCSS, Tailwind Config, ESLint |
+| ![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) **SQL** | Relational Database & Spatio-Temporal Queries | PostgreSQL 16, SQLite 3, Alembic Migrations, H2 Database |
+| ![HTML/CSS](https://img.shields.io/badge/HTML5%20%2F%20CSS3-E34F26?style=flat-square&logo=html5&logoColor=white) **HTML5 & CSS3** | Modern responsive styling & UI layouts | Vanilla CSS, Tailwind CSS Utility System, Glassmorphism, CSS Transitions |
+| ![Shell/Docker](https://img.shields.io/badge/Shell%20%2F%20YAML-4EAA25?style=flat-square&logo=gnubash&logoColor=white) **DevOps & Config** | Infrastructure automation & Cloud Deployment | Docker, Docker Compose, Render Blueprint (`render.yaml`), Vercel (`vercel.json`) |
 
 ---
 
