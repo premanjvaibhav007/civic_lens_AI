@@ -1,0 +1,36 @@
+services:
+  # 1. FastAPI Backend Service
+  - type: web
+    name: civiclens-backend
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+      - key: APP_NAME
+        value: "CivicLens AI"
+      - key: APP_VERSION
+        value: "2.0.0"
+      - key: SECRET_KEY
+        generateValue: true
+      - key: CORS_ORIGINS
+        value: "*"
+      - key: PYTHON_VERSION
+        value: 3.11.9
+
+  # 2. React Authority & Citizen Dashboard (SPA)
+  - type: web
+    name: civiclens-web
+    env: static
+    region: oregon
+    plan: free
+    rootDir: web
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
