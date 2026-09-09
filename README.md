@@ -1,13 +1,15 @@
 # CivicLens AI: AI-Powered Municipal Infrastructure Redressal Platform
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.111.0-009688.svg?logo=fastapi)](https://fastapi.tiangolo.com)
+[![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12-3776AB.svg?logo=python)](https://python.org)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2.3-6DB33F.svg?logo=springboot)](https://spring.io)
+[![Java](https://img.shields.io/badge/Java-17%20%7C%2021%20%7C%2023-ED8B00.svg?logo=openjdk)](https://openjdk.org)
 [![React](https://img.shields.io/badge/React-18-61DAFB.svg?logo=react)](https://reactjs.org)
-[![Kotlin](https://img.shields.io/badge/Kotlin-2.0.0-7F52FF.svg?logo=kotlin)](https://kotlinlang.org)
-[![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-2024.06.00-4285F4.svg?logo=android)](https://developer.android.com/jetpack/compose)
-[![Tests: Pytest](https://img.shields.io/badge/Tests-Passing-brightgreen.svg)](https://pytest.org)
+[![Vite](https://img.shields.io/badge/Vite-5.0-646CFF.svg?logo=vite)](https://vitejs.dev)
+[![Android](https://img.shields.io/badge/Android-Java%20%7C%20Kotlin-3DDC84.svg?logo=android)](https://developer.android.com)
+[![Tests: Pytest](https://img.shields.io/badge/Tests-18%20Passing-brightgreen.svg)](https://pytest.org)
 
-CivicLens AI is a production-ready, open-source, AI-powered civic grievance and infrastructure resolution platform. It bridges the gap between citizens, municipal field maintenance crews, and departmental administrators through automated multimodal defect triage, spatio-temporal duplicate detection, transparent SLA countdowns, and offline-first mobile synchronization.
+CivicLens AI is a production-ready, open-source, AI-powered civic grievance and infrastructure resolution platform. It bridges the gap between citizens, municipal field maintenance crews, and departmental administrators through automated multimodal defect triage, spatio-temporal duplicate detection, transparent SLA countdowns, and dual backend implementations in **Python (FastAPI)** and **Java (Spring Boot)** with a modern **React** web portal and **Java/Kotlin** Android mobile apps.
 
 ---
 
@@ -126,7 +128,7 @@ CivicLens AI v2.0 provides an end-to-end civic accountability loop accessible di
 - Android Studio Ladybug / Koala (for optional Android compilation)
 - Docker & Docker Compose (optional for production containerization)
 
-### 1. Run Backend & Initialize Database
+### 1a. Run Python FastAPI Backend & AI Engine (Port 8000)
 ```bash
 # Activate virtual environment
 .venv\Scripts\activate # On Windows
@@ -140,6 +142,17 @@ uvicorn backend.app.main:app --reload --port 8000
 ```
 - Swagger API Docs: `http://localhost:8000/docs`
 - Health Endpoint: `http://localhost:8000/health`
+
+### 1b. Run Java Spring Boot Backend (Port 8080)
+```bash
+cd backend-springboot
+
+# Run with Maven or Gradle
+mvn spring-boot:run
+```
+- Spring Boot REST API: `http://localhost:8080/api/v1/complaints`
+- Health Check: `http://localhost:8080/health`
+- Embedded H2 Console: `http://localhost:8080/h2-console`
 
 ### 2. Run Web Portal (Citizen & Authority)
 ```bash
